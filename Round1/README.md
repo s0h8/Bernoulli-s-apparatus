@@ -46,7 +46,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Name of Instructional Strategy  :    <u> As per Handout
 ###### Assessment Method: As per handout
 
-<u> Description of how you are going to implement the above Instructional Strategy in your Simulator: </u>
+<u> <b>Description: </b> of how you are going to implement the above Instructional Strategy in your Simulator: </u>
 <br>
  Brief description as per handout
 
