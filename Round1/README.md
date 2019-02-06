@@ -7,27 +7,31 @@ Remove this line before submitting : To Refer a filled sample of this template v
 <b> Experiment ABCDEF Lab  <a name="top"></a> <br>
 </p>
 
-<b>Discipline | <b>Type Name of Discpline  to which lab belongs
+<b>Discipline | <b>Type Name of Discipline  to which lab belongs
 :--|:--|
 <b> Lab | <b> Type name of the lab
 <b> Experiment|     <b> 1. Name of the experiment
-<b> Focus area | <b> NAme of the Focus area as per handout
 
 
-<h4> [1. Learning Objectives](#LO)
-<h4> [2. Instructional Strategy](#IS)
-<h4> [3. Task & Assessment Questions](#AQ)
-<h4> [4. Simulator Interactions](#SI)
+<h4> [1. Focus Area](#LO)
+<h4> [2. Learning Objectives ](#LO)
+<h4> [3. Instructional Strategy](#IS)
+<h4> [4. Task & Assessment Questions](#AQ)
+<h4> [5. Simulator Interactions](#SI)
 <hr>
 
 <a name="LO"></a>
-#### 1. Learning Objectives and Cognitive Level
-Sr. No |	Learning Objective	| Cognitive Level
+#### 1. Focus Area : Name of the Focus area as per handout
+
+#### 2. Learning Objectives and Cognitive Level
+
+
+Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:-:
-1.| User will be able to: <br>Next line from here <br> Next line here. | Type as per handout
-2.| User will be able to: <br>Next line from here <br> Next line here. | Type as per handout
-3.| User will be able to: <br>Next line from here <br> Next line here. | Type as per handout
-4. | User will be able to: <br>Next line from here <br> Next line here. | Type as per handout
+1.| User will be able to: <br>Next line from here <br> Next line here. | Type as per handout | Type as per handout
+2.| User will be able to: <br>Next line from here <br> Next line here. | Type as per handout | Type as per handout
+3.| User will be able to: <br>Next line from here <br> Next line here. | Type as per handout | Type as per handout
+4. | User will be able to: <br>Next line from here <br> Next line here. | Type as per handout | Type as per handout
 
 
 <br/>
@@ -38,12 +42,13 @@ Sr. No |	Learning Objective	| Cognitive Level
 <hr>
 
 <a name="IS"></a>
-#### 2. Instructional Strategy
-###### Method  :    <u> As per Handout
+#### 3. Instructional Strategy
+###### Name of Instructional Strategy  :    <u> As per Handout
 ###### Assessment Method: As per handout
 
-<u> Description: </u>
- Brefi description as per handout
+<u> Description of how you are going to implement the above Instructional Strategy in your Simulator: </u>
+<br>
+ Brief description as per handout
 
 <br/>
 <div align="right">
@@ -53,69 +58,30 @@ Sr. No |	Learning Objective	| Cognitive Level
 <hr>
 
 <a name="AQ"></a>
-#### 3. Task & Assessment Questions:
-(All the questions should be mapped to a TASK in the simulator.)
-#### Task1: </u>
+#### 4. Task & Assessment Questions:
+
 Read the theory and comprehend the concepts related to the experiment. [LO1, LO2, LO3]
-#### Assessment Questions:
 
-1 Question in detail <br>
- + A. Option
- + B. Option
- + C. Option
- + D. Option
 
-2 Question in detail <br>
- + A. Option
- + B. Option
- + C. Option
- + D. Option
+Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
+:--|:--|:-:
+1.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | Type the question that will assess what student has learnt
+2.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
 
-3 Question in detail <br>
- + A. Option
- + B. Option
- + C. Option
- + D. Option
 
-You can add more question. All questions may not be MCQ
-Please add the correct anser as well.
+You can add more question. All questions may not be as MCQ
+Please add the correct answer as well.
 or type the correct answer below the question.
+
  <br>
 
- #### Task2: </u>
- Read the theory and comprehend the concepts related to the experiment. [LO1, LO2, LO3]
- #### Assessment Questions:
-
- 1 Question in detail <br>
-  + A. Option
-  + B. Option
-  + C. Option
-  + D. Option
-
- 2 Question in detail <br>
-  + A. Option
-  + B. Option
-  + C. Option
-  + D. Option
-
- 3 Question in detail <br>
-  + A. Option
-  + B. Option
-  + C. Option
-  + D. Option
-
- You can add more question. All questions may not be MCQ
- Please add the correct anser as well.
- or type the correct answer below the question.
-
- <u> You can add additional TASKS & Assessment Questions /<u>
+ <u> You can add additional TASKS & Assessment Questions <u>
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
 <br/>
 <hr>
-
 
 <a name="SI"></a>
 #### 4. Simulator Interactions:
