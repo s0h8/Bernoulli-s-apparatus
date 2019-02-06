@@ -6,13 +6,13 @@ Remove this line before submitting : To Refer a filled sample of this template v
 <b>Discipline | <b>Type Name of Discpline  to which lab belongs
 :--|:--|
 <b> Lab | <b> Type name of the lab
-<b> Experiment|     <b> 1. Name of the experiment
+<b> Experiment|     <b> 1. (enter the correct experiment number) Name of the experiment
 
 <h5> About the Experiment : </h5> <br>
 
-Type here: berif description of this experimetn
+Type here: berif description of this experiment
 
-<b>Name of Developer | <b>Prof.- - - - - -
+<b>Name of Developer | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
 :--|:--|
 <b> Institute | <b> My Institute name
 <b> Email id|     <b> abc@example.com
@@ -25,6 +25,7 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 1 | Full name | Faculty | Dept Name | Name of the Insitute, City | abc@example.com
 2 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
 3 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
+4 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
 
 
 <br>
