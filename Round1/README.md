@@ -61,10 +61,10 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 #### 4. Task & Assessment Questions:
 
 Read the theory and comprehend the concepts related to the experiment. [LO1, LO2, LO3]
-
+<br>
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
-:--|:--|:-:
+:--|:--|:--|:-:
 1.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | Type the question that will assess what student has learnt
 2.| LO's as described in section 1 <br> Next line here. | Type the task that <br> student will perform | 1 Question in detail <br> A. Option <br> B. Option <br> C. Option <br> <b> D. Option </b> <br> (mark correct option as bold text)
 
@@ -84,7 +84,9 @@ or type the correct answer below the question.
 <hr>
 
 <a name="SI"></a>
+
 #### 4. Simulator Interactions:
+<br>
 
 What Simulator will do ? |	What students will do?	| Purpose of the task
 :--|:--|:-:
