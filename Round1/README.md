@@ -31,7 +31,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 1.| User will be able to: <br>Next line from here <br> Next line here. | Type as per handout | Type as per handout
 2.| User will be able to: <br>Next line from here <br> Next line here. | Type as per handout | Type as per handout
 3.| User will be able to: <br>Next line from here <br> Next line here. | Type as per handout | Type as per handout
-4. | User will be able to: <br>Next line from here <br> Next line here. | Type as per handout | Type as per handout
+4.| User will be able to: <br>Next line from here <br> Next line here. | Type as per handout | Type as per handout
 
 
 <br/>
@@ -90,7 +90,7 @@ or type the correct answer below the question.
 
 What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--:
-1. Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-2. Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-2. Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
-4. Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
+1.Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
+2.Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
+2.Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
+4.Activity description <br> next line <br> next line | Click on the ‘Activity description <br> next line  '  | Describe the purpose in detail.
