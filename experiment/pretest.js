@@ -110,7 +110,7 @@
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
-    									///// this line
+    									                  ///// this line
 
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
