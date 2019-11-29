@@ -1,10 +1,46 @@
 {
 
-	"Experiment": "",                // Write your experiment name inside the quotes
-	"Lab": "",                       // Write your lab name inside the quotes
-	"Discipline": "",                // Write discipline name to which experimet belongs inside the quotes
-	"Institute": "",                 // Write your institute name inside the quotes
-	"InstituteAcronym": ""           // Write acronym of the institute inside the quotes
-	"Author": ""					// Write name of the developer inside the quotes
-	"Technology": ""				// Write technologies used inside the quotes
+   "details": [
+       {
+			"Experiment": "",        // Write your experiment name inside the quotes      
+			"Lab": "",               // Write your lab name inside the quotes
+			"Discipline": "",				 // Write discipline name to which experimet belongs inside the quotes
+			"Technology": ""         // Write technologies used inside the quotes
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "",         // Write the name of the developer inside the quotes
+      "Institute": "",         // Write your institute name inside the quotes
+      "InstituteAcronym": ""   // Write acronym of the institute inside the quotes
+       }
+   ],
+
+   "contributer": [
+       {       
+			"Contributer": "",             // Write the name of the first contributer inside the quotes
+      "Institute": "",               // Write your institute name inside the quotes
+			"InstituteAcronym": ""         // Write acronym of the institute inside the quotes
+       },
+
+       {       
+			"Contributer": "",              // Write the name of the second contributer inside the quotes
+      "Institute": "",               // Write your institute name inside the quotes
+			"InstituteAcronym": ""         // Write acronym of the institute inside the quotes
+       },
+
+       {       
+			"Contributer": "",             // Write the name of the third contributer inside the quotes
+      "Institute": "",               // Write your institute name inside the quotes
+			"InstituteAcronym": ""         // Write acronym of the institute inside the quotes
+       },
+
+       {       
+			"Contributer": "",              // Write the name of the fourth contributer inside the quotes
+      "Institute": "",               // Write your institute name inside the quotes
+			"InstituteAcronym": ""         // Write acronym of the institute inside the quotes
+       }
+   ]
+
 }
