@@ -8,9 +8,21 @@ Remove this line before submitting : To Refer a filled sample of this template v
 <b> Lab | <b> Type name of the lab
 <b> Experiment|     <b> 1. (enter the correct experiment number) Name of the experiment
 
-<h5> About the Experiment : </h5> <br>
+<h5> About the Lab : </h5>
+
+Type here: berif description of the lab
+
+<h5> About the Experiment : </h5>
 
 Type here: berif description of this experiment
+
+<h5> Target Audience : </h5>
+
+Type here: the target audience
+
+<h5> Course Alignment : </h5>
+
+Type here: courses aligned
 
 <b>Name of Developer | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
 :--|:--|
