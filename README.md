@@ -24,11 +24,23 @@ Type here: the target audience
 
 Type here: courses aligned
 
+<h5> Universities Mapped : </h5>
+
+Type here: universities mapped
+
 <b>Name of Developer | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
 :--|:--|
 <b> Institute | <b> My Institute name
 <b> Email id|     <b> abc@example.com
 <b> Department | Name of the department in which you work
+
+#### Mentor Details
+
+<b>Mentored by | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+:--|:--|
+<b> Institute | <b> Institute name
+<b> Email id|     <b> abc@example.com
+<b> Department | Name of the department
 
 #### Contributors List
 
