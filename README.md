@@ -8,7 +8,7 @@ Remove this line before submitting : To Refer a filled sample of this template v
 <b> Lab | <b> Type name of the lab
 <b> Experiment|     <b> 1. (enter the correct experiment number) Name of the experiment
 
-<h5> About the Lab : </h5>
+<h5> About the Lab (Objective) : </h5>
 
 Type here: berif description of the lab
 
