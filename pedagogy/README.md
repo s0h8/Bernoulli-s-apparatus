@@ -10,7 +10,7 @@
 <b>Discipline | <b>Chemical Engineering 
 :--|:--|
 <b> Lab | <b> Chemical Engineering Fluid Mechanics Lab
-<b> Experiment|     <b> 1. Verification of Bernoulli’s Theorem.
+<b> Experiment|     <b> 1. Study and verification of the flow pattern in bernoulli's apparatus.
 
 
 <h4> [1. Focus Area](#LO)
@@ -60,13 +60,13 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| LO1. | Recalling of Theorum |  Bernoulli's equation describes a relationship between which variables? </b> <br> A.	pressure, volume, and speed <br> B.	pressure, volume, and height <br> C. pressure, flow rate, and speed <br> <b> D. pressure, speed, and height </b> <br> E.	height, density, and flow rate <br>
-2.| LO1 | Recalling of Theorum| 	How is Bernoulli's equation like the law of conservation of energy?  <br> A. It explains how the overall relationship is constantly changing<br>  <b> B. It explains how the overall relationship is constant </b> <br> C. It explains how the amount of fluid on Earth never changes <br> D. It describes a relationship between recycling and sustainable energy<br> E. It describes a relationship between fluid volume and kinetic energy<br>
-3.| LO1 | Recalling of Theorum |    Which of the following is Bernoulli's equation?   <br> A. P1 + ½ ρv1^2 + ρgh1 = P2 + ½ ρv2^2 + ρgh2<br>  B.	P2 + ½ ρv2^2 + ρgh2 = P1 + ½ ρv1^2 + ρgh1  <br> C. P2 = P1 + ½ ρv1^2 - ½ ρv2^2 + ρgh1 - ρgh2 <br> D. P2 = P1 + ½ρ(v1^2 - v2^2) + ρg(h1 - h2)<br> <b>E. All are correct</b><br>
-4.| LO1 | Recalling of Theorum |   4.	The following are the assumption made in the derivation of Bernoulli’s equation:    <br> A. The fluid is ideal or perfect, only.<br>  B. The flow is steady, only.  <br> C. There is no energy loss while flowing, only.<br> D. The flow is incompressible, only.<br> E.The flow is Irrotational, only.<br> <b>F. All of the above</b><br>
+1.| LO1. | Recalling of Theorem |  Bernoulli's equation describes a relationship between which variables? </b> <br> A.	pressure, volume, and speed <br> B.	pressure, volume, and height <br> C. pressure, flow rate, and speed <br> <b> D. pressure, speed, and height </b> <br> E.	height, density, and flow rate <br>
+2.| LO1 | Recalling of Theorem| 	How is Bernoulli's equation like the law of conservation of energy?  <br> A. It explains how the overall relationship is constantly changing<br>  <b> B. It explains how the overall relationship is constant </b> <br> C. It explains how the amount of fluid on Earth never changes <br> D. It describes a relationship between recycling and sustainable energy<br> E. It describes a relationship between fluid volume and kinetic energy<br>
+3.| LO1 | Recalling of Theorem |    Which of the following is Bernoulli's equation?   <br> A. P1 + ½ ρv1^2 + ρgh1 = P2 + ½ ρv2^2 + ρgh2<br>  B.	P2 + ½ ρv2^2 + ρgh2 = P1 + ½ ρv1^2 + ρgh1  <br> C. P2 = P1 + ½ ρv1^2 - ½ ρv2^2 + ρgh1 - ρgh2 <br> D. P2 = P1 + ½ρ(v1^2 - v2^2) + ρg(h1 - h2)<br> <b>E. All are correct</b><br>
+4.| LO1 | Recalling of Theorem |   4.	The following are the assumption made in the derivation of Bernoulli’s equation:    <br> A. The fluid is ideal or perfect, only.<br>  B. The flow is steady, only.  <br> C. There is no energy loss while flowing, only.<br> D. The flow is incompressible, only.<br> E.The flow is Irrotational, only.<br> <b>F. All of the above</b><br>
 5.| LO1. | Recalling the basic procedure |  5.	Can this experiment work when the conduit is half filled? <br> Yes <br><b>No</b> <br> 
 6.| LO1 and LO2 | Recalling and understanding the experimental setup |  	In the present experiment what are the value of Z. <br> A. Z=2 <br>B. Z=1.5 <br><b> C. Z=0 </b><br> D.	Z=1  <br>
-7.| LO1 and LO2 |  Recalling and understanding the Application of Bernoullie's theorum | 		If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid?  <br><b> Yes</b> <br> No <br>
+7.| LO1 and LO2 |  Recalling and understanding the Application of Bernoullie's theorem | 		If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid?  <br><b> Yes</b> <br> No <br>
 8.| LO1 and LO2 | Recalling and understanding different <br>properties and parameters of the fluid flow<br> (like friction factor)|   	If this experiment is conducted in real lab then the result will be same.   <br> yes <br> <b> no </b><br> 
 9.| LO1 and LO2 | Recalling and understanding the experimental setup |  	In Q8 if the result will vary from virtual lab to real lab as  <br> A. Viscosity will differ in real fluid<br><b> B.Ideal fluids doesn’t exist </b><br><b> C. There will be frictional loss through walls of the conduit </b><br> D. Because of environmental conditions  <br>
 10.| LO1,LO2 and LO3 | Recalling and understanding the experimental setup |  What pattern does the values of kinetic energy follows (through the graphs) <br> <b>A.	It first increases then decreases at the length of the conduit</b><br> B.	It remains constant throughout the conduit<br> C. It first decreases then increases at the length of the conduit <br> D. It is zero throughout the conduit.  <br>
