@@ -24,7 +24,7 @@ UG AND PG students of chemical engineering.
 KCH 351
 
 <h5> Universities Mapped : </h5>
-
+AKTU<br>
 Nirma UNIVERSITY<br>
 RGIPT RAEBARELLY<br>
 HBTU KANPUR<br>
