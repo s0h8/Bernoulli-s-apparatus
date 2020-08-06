@@ -37,7 +37,7 @@ Abdul Kalam Technical University
 
 <b>Mentored by | <b> Senthil Subramanian
 :--|:--|
-<b> Institute | <b> Hindustan College of Science and Technology
+<b> Institute | <b> Sharda group of institutions
 <b> Email id|     <b> tss.senthil.hcst@sgei.org
 <b> Department | Name of the department
 
