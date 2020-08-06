@@ -5,7 +5,7 @@
 <b>Discipline | <b>Chemical Engineering
 :--|:--|
 <b> Lab | <b> Chemical Engineering Fluid Mechanics Lab
-<b> Experiment|     <b>  Experiment number 8. Study and verification of the flow pattern in bernoulli's apparatus.
+<b> Experiment|     <b>  Experiment number 1. Study and verification of the flow pattern in bernoulli's apparatus.
 
 <h5> About the Lab (Objective) : to provide students hands on practice on physical processes and theoretical concepts made practical for their better understanding. </h5>
 
