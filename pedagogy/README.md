@@ -67,22 +67,22 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 5.| LO1. | Recalling the basic procedure |  5.	Can this experiment work when the conduit is half filled? <br> Yes <br><b>No</b> <br> 
 6.| LO1 and LO2 | Recalling and understanding the experimental setup |  	In the present experiment what are the value of Z. <br> A. Z=2 <br>B. Z=1.5 <br><b> C. Z=0 </b><br> D.	Z=1  <br>
 7.| LO1 and LO2 |  Recalling and understanding the Application of Bernoullie's theorum | 		If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid?  <br><b> Yes</b> <br> No <br>
-8.| LO1 and LO2 | Recalling and understanding different <br>properties and parameters of the fluid flow<br> (like friction facotr)|   	If this experiment is conducted in real lab then the result will be same.   <br> yes <br> <b> no </b><br> 
-9.| LO1 and LO2 |  Recalling and understanding different <br>properties and parameters of the fluid flow<br> (like friction facotr) |   	In Q7 if the result will vary from virtual lab to real lab as   <br> a)	Viscosity will differ in real fluid<br>
+8.| LO1 and LO2 | Recalling and understanding different <br>properties and parameters of the fluid flow<br> (like friction factor)|   	If this experiment is conducted in real lab then the result will be same.   <br> yes <br> <b> no </b><br> 
+9.| LO1 and LO2 |  Recalling and understanding different <br>properties and parameters of the fluid flow<br> (like friction factor) |   	In Q8 if the result will vary from virtual lab to real lab as   <br> a)	Viscosity will differ in real fluid<br>
 b)	<b>Ideal fluids doesn’t exist</b><br>
 c)	<b>There will be frictional loss through walls of the condui</b>t<br>
 d)	Because of environmental conditions<br>
 
-10.| LO1, LO2 and LO3 | Analysing the according to the calculations and observations |  What pattern does the values of kinetic energy follows (through the graphs)  <br><b>a)	It first increases then decreases at the length of the conduit</b><br>
-b)	It remains constant throughout the conduit<br>
-c)	It first decreases then increases at the length of the conduit<br>
-d)	It is zero throughout the conduit.<br>
+10.| LO1, LO2 and LO3 | Analysing the according to the calculations and observations |  What pattern does the values of kinetic energy follows (through the graphs)  <br>
+a)	Viscosity will differ in real fluid<br>
+b)	<b>Ideal fluids doesn’t exist</b><br>
+c)	<b>There will be frictional loss through walls of the condui</b>t<br>
+d)	Because of environmental conditions<br>
 
 
 
  <br>
 
- <u> You can add additional TASKS & Assessment Questions <u>
 <br/>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
