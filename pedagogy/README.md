@@ -21,7 +21,7 @@
 <hr>
 
 <a name="LO"></a>
-#### 1. Focus Area : Reinforce theoretical concepts, Instrumentation and practical skills, and Data Analysis.
+#### 1. Focus Area : Reinforce theoretical concepts, and Data Analysis.
 
 #### 2. Learning Objectives and Cognitive Level
 
