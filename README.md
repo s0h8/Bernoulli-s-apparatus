@@ -25,7 +25,28 @@ KCH 351
 
 <h5> Universities Mapped : </h5>
 
-Abdul Kalam Technical University
+Nirma UNIVERSITY<br>
+RGIPT RAEBARELLY<br>
+HBTU KANPUR<br>
+GGS  IP UNIVERSITY<br>
+UPES DEHRADUN <br>
+AMITY<br>
+GALGOTIAS<br>
+GD GOENKA UNIVERSITY<br>
+PARUL UNIVERSITY<br>
+ICET MUMBAI<br>
+MUMBAI UNIVERSITY<br>
+CCS UNIVERSITY<br>
+IIT DELHI<br>
+IIT ROORKEE<br>
+IIT KANPUR<br>
+IIT GANDHINAGAR<br>
+IIT ROPAR<br>
+IIT BOMBAY<br>
+IIT MADRAS<br>
+IIT Kharagpur<br>
+IIT GUWAHATI<br>
+IIT BHU<br>
 
 <b>Name of Developer | <b> Neha Sharma
 :--|:--|
@@ -39,7 +60,6 @@ Abdul Kalam Technical University
 :--|:--|
 <b> Institute | <b> Sharda group of institutions
 <b> Email id|     <b> tss.senthil.hcst@sgei.org
-<b> Department | Name of the department
 
 #### Contributors List
 
@@ -53,4 +73,3 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 
 
 <br>
-for more details on Rounds visit : <b> [HERE](http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/List-of-Rounds/blob/master/README.md) </b>
