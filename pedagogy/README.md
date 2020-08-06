@@ -69,7 +69,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 7.| LO1 and LO2 |  Recalling and understanding the Application of Bernoullie's theorem | 		If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid?  <br><b> Yes</b> <br> No <br>
 8.| LO1 and LO2 | Recalling and understanding different <br>properties and parameters of the fluid flow<br> (like friction factor)|   	If this experiment is conducted in real lab then the result will be same.   <br> yes <br> <b> no </b><br> 
 9.| LO1 and LO2 | Recalling and understanding different <br>properties and parameters of the fluid flow<br> (like friction factor)  |  	In Q8 if the result will vary from virtual lab to real lab as  <br> A. Viscosity will differ in real fluid<br><b> B.Ideal fluids doesn’t exist </b><br><b> C. There will be frictional loss through walls of the conduit </b><br> D. Because of environmental conditions  <br>
-10.| LO1,LO2 and LO3 | Recalling and understanding different <br>properties and parameters of the fluid flow<br> (like friction factor)  |  What pattern does the values of kinetic energy follows (through the graphs) <br> <b>A.	It first increases then decreases at the length of the conduit</b><br> B.	It remains constant throughout the conduit<br> C. It first decreases then increases at the length of the conduit <br> D. It is zero throughout the conduit.  <br>
+10.| LO1,LO2 and LO3 | Analyse through calculations and observations |  What pattern does the values of kinetic energy follows (through the graphs) <br> <b>A.	It first increases then decreases at the length of the conduit</b><br> B.	It remains constant throughout the conduit<br> C. It first decreases then increases at the length of the conduit <br> D. It is zero throughout the conduit.  <br>
 
 
 
@@ -93,4 +93,4 @@ Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 1.| Student will switch on the motor  | Click on the ‘motor button '  | To start the flow of water through the system.
 2.| Student will regulate the flow of water <br> by rotating the valve | Click on the ‘outlet valve to rotate it '  | To adjust/set the flow rate of water.
 3.| Student will measure the height in manometer<br>by collecting the water <br>in collecting tank  | Click on the ‘gate valve <br> to close it  '  | To measure the flow rate .
-4.| Student will record  <br> all the respective heights and readings <br> shown by the simulater | Note down the readings  | to do calculations for verification of Bernoulli's theorum.
+4.| Student will record  <br> all the respective heights and readings <br> shown by the simulator | Note down the readings  | to do calculations for verification of Bernoulli's theorum.
