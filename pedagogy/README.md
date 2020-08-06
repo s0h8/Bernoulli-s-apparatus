@@ -7,11 +7,11 @@
 <b> Experiment Chemical Engineering Fluid Mechanics Lab  <a name="top"></a> <br>
 </p>
 
-<b>Discipline | <b>Chemical Engineering 
+Discipline | Chemical Engineering 
 :--|:--|
-<b> Lab | <b> Chemical Engineering Fluid Mechanics Lab
-<b> Experiment|     <b> 1. Study and verification of the flow pattern in bernoulli's apparatus.
-
+ Lab |  Chemical Engineering Fluid Mechanics Lab
+ Experiment|      1. Study and verification of the flow pattern in bernoulli's apparatus.
+</b>
 
 <h4> [1. Focus Area](#LO)
 <h4> [2. Learning Objectives ](#LO)
