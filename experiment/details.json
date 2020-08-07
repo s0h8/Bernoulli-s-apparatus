@@ -2,44 +2,44 @@
 
    "details": [
        {
-			"Experiment": "",     
-			"Lab": "",               
-			"Discipline": "",				 
-			"Technology": ""         
+			"Experiment": "To verify the Bernoulli’s theorem experimentally.",     
+			"Lab": "Chemical Engineering Fluid Mechanics Lab",               
+			"Discipline": "Chemical Engineering",				 
+			"Technology": "Fluid Mechanics"         
        }
    ],
 
    "developer": [
        {       
-      "Developer": "",         
-      "Institute": "",         
-      "InstituteAcronym": ""   
+      "Developer": "Neha Sharma",         
+      "Institute": "Meerut Institute of Engineering and Technology",         
+      "InstituteAcronym": "MIET"   
        }
    ],
 
    "contributer": [
        {       
-			"Contributer": "",             
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Manan Gupta",             
+      "Institute": "Meerut Institute of Engineering and Technology",               
+			"InstituteAcronym": "MIET"         
        },
 
        {       
-			"Contributer": "",              
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Hardik Sharma",              
+      "Institute": "Meerut Institute of Engineering and Technology",               
+			"InstituteAcronym": "MIET"         
        },
 
        {       
-			"Contributer": "",             
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Hritik Singhal",             
+      "Institute": "Meerut Institute of Engineering and Technology",               
+			"InstituteAcronym": "MIET"         
        },
 
        {       
-			"Contributer": "",              
-      "Institute": "",               
-			"InstituteAcronym": ""         
+			"Contributer": "Vishesh Jindal",              
+      "Institute": "Meerut Institute of Engineering and Technology",               
+			"InstituteAcronym": "MIET"         
        }
    ]
 
