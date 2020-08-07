@@ -22,6 +22,7 @@ Discipline | Chemical Engineering
 
 <a name="LO"></a>
 #### 1. Focus Area : Reinforce theoretical concepts, and Data Analysis.
+By this experiment we want students to understand the concep t of mechanical energy balance existing in the fluid flows. By doing this experiment they would themselves analyze that if the value of one form of energy is reduced by any means then the value for other form increases. And this is always true for ideal fluid for different flow rates.
 
 #### 2. Learning Objectives and Cognitive Level
 
@@ -46,6 +47,23 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Name of Instructional Strategy  :    <u> Expository
 ###### Assessment Method: Submmative
 
+
+1. Switch on the motor
+2. Water will move from reservoir to delivery pipe till delivery valve
+3. Open the delivery valve
+4. Tank, conduit and pipe will fill simultaneously.
+5. Once conduit is filled open outlet valve
+6. Ask the flow rate
+7. Piezometers will start filling up to a certain height.
+8. Height of each piezometer is demonstrated and recorded in the observation table.
+9. Close the gate valve
+10. fluid starts filling in collecting tank
+11. After fluid reaches the opening of measuring tube ask to record initial height and start stop
+watch.
+12. After 30 sec in stop watch stop it. (At this time whole experiment is halted as it is
+completed).
+13. Ask to record final height.
+14. Show the observation table where all the data is recorded in the appropriate columns.
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
