@@ -66,7 +66,7 @@ Step by step instructions are provided at each level in the simulator to make it
 Various changes in flow rate are possible so that user may completely learn the objective.
 
 <h5>CALCULATIONS:</h5>
-Student have to make calculation on the basis of data obtained from the experiment.
+Student have to make calculation on the basis of data obtained from the experiment. <br>
 p= pressure <br>
 w = weight density <br>
 g= acceleration due to gravity, 9.81 m/(s^2) <br>
