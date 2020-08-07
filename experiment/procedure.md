@@ -1,4 +1,4 @@
-##Procedure
+###Procedure
 
 1.	Note down the piezometers distance from inlet section of the Perspex duct.
 2.	Note down the cross-sectional area of Perspex duct at each of the piezpmeter tapping points.
