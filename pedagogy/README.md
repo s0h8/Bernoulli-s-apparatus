@@ -71,6 +71,9 @@ Student have to make calculation on the basis of data obtained from the experime
 Pressure head+ Velocity head+ datum = total head = constant
  <br>i.e P/w +{(v<sup>2</sup>)/(2*g)} + z = Total head = constant <br>
 <br>Flow rate, Q = ( A*H)/ t 
+<br>
+velocity, v = Q/a
+
 <br> where, 
 p= pressure <br>
 w = weight density <br>
@@ -82,7 +85,6 @@ H = height in collecting tank <br>
 h= height in piezometers <br>
 t= time for collecting water in collecting tank i.e 30seconds <br>
  <br>
-velocity, v = Q/a
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
 </div>
