@@ -49,8 +49,16 @@ User will take approximate 7-10 minutes for understanding the procedure. Then fo
 ##### 2.7 Equations/formulas: NA
 Different formulas and equations that will be used in this are - 
 
+v= Velocity in duct 
+A= Area of cross section of collecting tank
+a= Area of c/s of duct
+H = height in collecting tank
+h= height in piezometers
+t= time for collecting water in collecting tank i.e 30seconds
+
+
 1) Bernoulli's Equation
-(P/w) +{(V^2)/(2*g)} + z = Total head = constant  ;
+(P/w) +{(v^2)/(2*g)} + z = Total head = constant  ;
 
 2) Flow rate 
 {Q = ( A*H)/ t }; 
@@ -63,9 +71,9 @@ Different formulas and equations that will be used in this are -
 
 ### 3. Flowchart 4
 <img src="flowchart/flowchart.png"/><br>
-link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
+link to flow chart Here : Store in the /flowchart folder within Round2 folder in your repo
 <br>
-(guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
+
 
 ### 4. Mindmap:
 <img src="mindmap/mindmap.png"/>
@@ -74,6 +82,4 @@ link to flow chart Here : Store in the  /flowchart folder within Round2 folder i
  (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
 
 ### 5. Storyboard :
-Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
-Link to storybaord (.gif file ) here :
-(guide: This document should include sketching and description scene wise (duration, action, description). Software to be used for storyboarding : https://wonderunit.com/storyboarder/ (Its a FOSS tool) . tutorial on how to use it https://www.youtube.com/watch?v=LAeCEpG0KX4
+Storyboard: <a href="Storyboard/im.gif"> [here]</a>
