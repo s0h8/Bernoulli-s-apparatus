@@ -82,7 +82,6 @@ v= Velocity in duct <br>
 A= Area of cross section of collecting tank <br>
 a= Area of c/s of duct <br>
 H = height in collecting tank <br>
-h= height in piezometers <br>
 t= time for collecting water in collecting tank i.e 30seconds <br>
  <br>
 <div align="right">
