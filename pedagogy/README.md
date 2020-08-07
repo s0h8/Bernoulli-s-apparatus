@@ -22,20 +22,29 @@ Discipline | Chemical Engineering
 
 <a name="LO"></a>
 #### 1. Focus Area : Reinforce theoretical concepts, and Data Analysis.
-By this experiment we want students to understand the concep t of mechanical energy balance existing in the fluid flows. By doing this experiment they would themselves analyze that if the value of one form of energy is reduced by any means then the value for other form increases. And this is always true for ideal fluid for different flow rates.
+By this experiment we want students to understand the concept of mechanical energy balance existing in the fluid flows. By doing this experiment they would themselves analyze that if the value of one form of energy is reduced by any means then the value for other form increases. And this is always true for ideal fluid for different flow rates.
 
 #### 2. Learning Objectives and Cognitive Level
 
+<h5>Description:</h5>
 Here we have identified three learning objectives. As both the experiments are based on the universal laws for the subjects therefore it includes remembering of the theorem and facts and then operation or execution the experiment. Further during the operation student will be able to understand the theorem and further based on the observations students will be able to to analyse and reach the outcome.
 
+<h5>Description:</h5>
+To achieve attainment of all the objectives the experiment is designed for different sets of flow rates so that students may learn through performing.
+<br>
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>recall the Bernoulli’s theorem <br> Next line here. | Remembering | Recall
 2.| User will be able to: <br>describe the application of the Bernoulli’s Theorem. | Understand  | Describe
 3.| User will be able to: <br>analyse the data obtained from various sections at the pipe of different flow rates through graph. | analysing | analyse
+<br>
 
-These experiments are designed such that if students perform the given task completely e then he or she will be able to understand the whole concept of the bernoulli's theorem and Reynolds number via visualising and data analysis
+<h5>Examine</h5>
+In the experiment for bernoulli's theorem after performing the whole experiment and collecting data the student needs to to plot a graph with the calculated values. And after the graph is plotted the student can analyse the the actual beauty of bernoulli's theorem.
+
+<h5>Conclude</h5>
+This experiment is designed such that if students perform the given task completely then he or she will be able to understand the whole concept of the bernoulli's theorem via visualising and data analysis.
 
 <br/>
 <div align="right">
@@ -50,13 +59,13 @@ These experiments are designed such that if students perform the given task comp
 ###### Assessment Method: Submmative
 
 
-DESCRIPTION:
+<h5>DESCRIPTION:</h5>
 Step by step instructions are provided at each level in the simulator to make it more user friendly.
 
-SCOPE:
+<h5>SCOPE:</h5>
 Various changes in flow rate are possible so that user may completely learn the objective.
 
-CALCULATIONS:
+<h5>CALCULATIONS:</h5>
 Student have to make calculation on the basis of data obtained from the experiment.
 
 <div align="right">
