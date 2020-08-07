@@ -21,7 +21,9 @@ UG AND PG students of chemical engineering.
 
 <h5> Course Alignment : </h5>
 
-KCH 351
+The listed course goals can be e achieved only when certain learning objective are defined and to know the outcome for that the learning objective are attained by students we need some assessments by which we would know that how how much accomplishment it is achieved.
+
+Here based on the course goals learning objectives are finalized. These are the points which the student should learn before and during the the commencement of of the lab so that he she maybe well equipped with the basic theory of theory and laws. To judge whether the student has completely understood the process various questions are set on each learning objective. The scores attained will provide the basis to judge that in what part of the process student it still needs learning.
 
 <h5> Universities Mapped : </h5>
 AKTU<br>
