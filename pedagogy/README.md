@@ -67,6 +67,15 @@ Various changes in flow rate are possible so that user may completely learn the 
 
 <h5>CALCULATIONS:</h5>
 Student have to make calculation on the basis of data obtained from the experiment.
+v= Velocity in duct 
+A= Area of cross section of collecting tank
+a= Area of c/s of duct
+H = height in collecting tank
+h= height in piezometers
+t= time for collecting water in collecting tank i.e 30seconds
+
+Pressure head+ Velocity head+ datum = total head = constant
+i.e P/w) +{(v<sup>2</sup>)/(2*g)} + z = Total head = constant
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
