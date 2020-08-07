@@ -2,7 +2,7 @@
 
 
 
-Experiment 1: Name of the Experiment
+Experiment 1: Study and verification of the flow pattern in bernoulli's apparatus.
 
 ### 1. Story Outline:
 
@@ -70,8 +70,8 @@ t= time for collecting water in collecting tank i.e 30seconds
 
 
 ### 3. Flowchart 4
-<img src="flowchart/flowchart.png"/><br>
-link to flow chart Here : Store in the /flowchart folder within Round2 folder in your repo
+<img src="flowchart/Untitled drawing.png"/><br>
+link to flow chart Here : https://github.com/Simulators368/Bernoulli-s-apparatus/blob/master/storyboard/flowchart/Untitled%20drawing.png
 <br>
 
 
@@ -83,3 +83,4 @@ link to flow chart Here : Store in the /flowchart folder within Round2 folder in
 
 ### 5. Storyboard :
 Storyboard: <a href="Storyboard/im.gif"> [here]</a>
+link to storyboard Here : https://github.com/Simulators368/Bernoulli-s-apparatus/blob/master/storyboard/storyboard/im.gif
