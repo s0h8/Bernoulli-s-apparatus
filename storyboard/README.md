@@ -49,24 +49,22 @@ User will take approximate 7-10 minutes for understanding the procedure. Then fo
 ##### 2.7 Equations/formulas: NA
 Different formulas and equations that will be used in this are - 
 
-v= Velocity in duct 
-A= Area of cross section of collecting tank
-a= Area of c/s of duct
-H = height in collecting tank
-h= height in piezometers
-t= time for collecting water in collecting tank i.e 30seconds
+<h5>Bernoulli's Theorem:</h5>
+Pressure head+ Velocity head+ datum = total head = constant;
+ <br>i.e P/w +{(v<sup>2</sup>)/(2*g)} + z = Total head = constant; <br>
+<br>Flow rate, Q = ( A*H)/ t ;
+<br><br>
+velocity, v = Q/a;
 
-
-1) Bernoulli's Equation
-(P/w) +{(v^2)/(2*g)} + z = Total head = constant  ;
-
-2) Flow rate 
-{Q = ( A*H)/ t }; 
-
-3) For velocity 
-{v = Q/a} ; 
-
-4) velocity head = (v^2)/(2*g);
+<br> where, 
+p= pressure <br>
+w = weight density <br>
+g= acceleration due to gravity, 9.81 m/(s^2) <br>
+v= Velocity in duct <br>
+A= Area of collecting tank <br>
+a= Area of c/s of duct <br>
+H = height in collecting tank <br>
+t= time for collecting water in collecting tank i.e 30seconds <br>
 
 
 ### 3. Flowchart 4
