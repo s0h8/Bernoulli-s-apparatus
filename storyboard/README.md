@@ -40,13 +40,15 @@ At the outlet of the conduit2 there is  outlet valve for regulating the flow rat
 Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
 
 ##### 2.5 Allow pitfalls:
-Describe the pitfalls here: (guide : (while traversing or while solving challenge, how will we bring a situation in front of him that he commits mistake if he is not attentive , or not following procedure , descriptive))
+1. If user uses valves without switching on the motor pump, the experiment wouldnt work.
+2. If user uses outlet valve just after closing gate valve and the timer is still running, user might get wrong readings.
+
 
 ##### 2.6 Conclusion:
 There were two assessments i.e pre-assessment and post-assessment having total 10 questions of different difficulty level. Right answered questions will get 1 mark while wrong answered question will get 0 mark. Hence after answering particular set of question student will get score on the basis of answers given. 
 User will take approximate 7-10 minutes for understanding the procedure. Then for generating data by the help of simulator will take 2-3 minutes. After onwards for calculating result and plotting graph will take 12 minutes. Hence total time taken for doing experiment will be approximately 25 minutes.
 
-##### 2.7 Equations/formulas: NA
+##### 2.7 Equations/formulas: 
 Different formulas and equations that will be used in this are - 
 
 <h5>Bernoulli's Theorem:</h5>
