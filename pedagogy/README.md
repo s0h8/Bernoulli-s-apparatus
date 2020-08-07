@@ -67,7 +67,7 @@ Various changes in flow rate are possible so that user may completely learn the 
 
 <h5>CALCULATIONS:</h5>
 Student have to make calculation on the basis of data obtained from the experiment. <br>
-
+<h5>Bernoulli's Theorum:</h5>
 Pressure head+ Velocity head+ datum = total head = constant
  <br>i.e P/w +{(v<sup>2</sup>)/(2*g)} + z = Total head = constant <br>
 <br>Flow rate, Q = ( A*H)/ t 
