@@ -43,11 +43,22 @@ Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/
 Describe the pitfalls here: (guide : (while traversing or while solving challenge, how will we bring a situation in front of him that he commits mistake if he is not attentive , or not following procedure , descriptive))
 
 ##### 2.6 Conclusion:
-Describe conclusion here : (guide: This may include displaying: how much time did the user take to solve the questions/ How many questions were right?/ How many hints did the learner use. Based on this the evaluation/marking to be suggested to the user. (once he is towards the completion of the experiment, what LO he is taking along with him, what will be his probable, interpretation/conclusion , descriptive) )
+There were two assessments i.e pre-assessment and post-assessment having total 10 questions of different difficulty level. Right answered questions will get 1 mark while wrong answered question will get 0 mark. Hence after answering particular set of question student will get score on the basis of answers given. 
+User will take approximate 7-10 minutes for understanding the procedure. Then for generating data by the help of simulator will take 2-3 minutes. After onwards for calculating result and plotting graph will take 12 minutes. Hence total time taken for doing experiment will be approximately 25 minutes.
 
 ##### 2.7 Equations/formulas: NA
-Type equations here : (guide : ( a separate sheet having equations / programs for the lab exper3ment to be shared along with the Story submissions (1) . You can mark it as numerical reference numbers within the story narration (like we cite in the research papers) and then separately share these equations/programs sheets as a reference, do not include the equations as a whole in the narration))
-Tool can be used to integrate formula in Markdown <b> [here](http://latex.codecogs.com/eqneditor/samples/example3.php) </b>
+Different formulas and equations that will be used in this are - 
+
+1) Bernoulli's Equation
+(P/w) +{(V^2)/(2*g)} + z = Total head = constant  ;
+
+2) Flow rate 
+{Q = ( A*H)/ t }; 
+
+3) For velocity 
+{v = Q/a} ; 
+
+4) velocity head = (v^2)/(2*g);
 
 
 ### 3. Flowchart 4
