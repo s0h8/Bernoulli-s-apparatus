@@ -90,26 +90,68 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "Bernoulli's equation describes a relationship between which variables?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "pressure, volume, and speed",                  ///// Write the option 1 inside double quotes
+        b: "pressure, volume, and height",                  ///// Write the option 2 inside double quotes
+        c: "pressure, flow rate, and speed",                  ///// Write the option 3 inside double quotes
+        d: "pressure, speed, and height",
+        e: "height, density, and flow rate"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "This is question 2?",  ///// Write the question inside double quotes
+     question: "How is Bernoulli's equation like the law of conservation of energy",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a:	"It explains how the overall relationship is constantly changing",
+        b:	"It explains how the overall relationship is constant",
+        c:	"It explains how the amount of fluid on Earth never changes",
+        d:	"It describes a relationship between recycling and sustainable energy",
+        e:  "It describes a relationship between fluid volume and kinetic energy"
+                  ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
+    },   
+    {
+      question: "Which of the following is Bernoulli's equation? ",
+      answers: {
+        a:	"P1 + ½ ρv1^2 + ρgh1 = P2 + ½ ρv2^2 + ρgh2",
+b:	"P2 + ½ ρv2^2 + ρgh2 = P1 + ½ ρv1^2 + ρgh1",
+c:	"P2 = P1 + ½ ρv1^2 - ½ ρv2^2 + ρgh1 - ρgh2",
+d:	"P2 = P1 + ½ρ(v1^2 - v2^2) + ρg(h1 - h2)",
+e:	"All are correct"
+
+      },
+      correctAnswer: "e"
+    },
+    
+    {
+      question: "The following are the assumption made in the derivation of Bernoulli’s equation: ",
+      answers: {
+       a:"	The fluid is ideal or perfect, only.",
+b:"	The flow is steady, only.",
+c:"	There is no energy loss while flowing, only.",
+d:"	The flow is incompressible, only.",
+e:"	The flow is Irrotational, only.",
+f:"	All of the above"
+
+      },
+      correctAnswer: "f"
+    },
+    
+     {
+      question: "5.	Can this experiment work when the conduit is half filled? ",
+      answers: {
+       a:"	Yes",
+b:"	No"
+      },
+      correctAnswer: "b"
+    },
+    
+    
+    
+    ///// To add more questions, copy the section below 
     									                  ///// this line
 
 
@@ -122,7 +164,7 @@
     Copy below section
 
     {
-      question: "This is question n?",
+      question: "Which of the following is Bernoulli's equation? ",
       answers: {
         a: "Option 1",
         b: "Option 2",
