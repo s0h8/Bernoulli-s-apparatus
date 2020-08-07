@@ -1,26 +1,39 @@
 ## Storyboard (Round 2)
 
-Delete this line before submission : The core principle of Round 2 is to make the lab/experiment documentation elaborated in a manner that it makes easy for any person (developer/domain and non domain faculty/student) to understand and develop the lab/experiment.
+
 
 Experiment 1: Name of the Experiment
 
 ### 1. Story Outline:
 
-Describe outline Here ( guide : The proposer should first draft the story outline for the proposed outline. This could be 2 or 3 paragraphs.)
+This experiment involves water that will circulate from the reservoir by the help of pump through the delivery pipe, conduit and piping arrangement, collecting tank then to reservoir again. Between the conduit in the pipe there are piezometers attached at equal distance. 
+The objective of the experiment is to recall the Bernoulli's theorem and verify that. Hence by the help of piezometers user will get the pressure head and velocity head depends on the flow rate of water flowing through pipe. Datum depends on the location of pipe ( height from reference). All can be understood by the user by the help of this experiment and verification of Bernoulli's theorem can be made.
 
 ### 2. Story:
 
-Describe the Story intorduction here (guide : The next step is to write a story. Story should be a brief logical description in simple English. It should talk about the overall execution of the experiment in a simplified manner. (should not include any equations/ drawings). The story should include the following points) )
-
 #### 2.1 Set the Visual Stage Description:
-Describe here : (guide When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
-
+In the simulator user will be able to see the virtual prototype of experimental set up resembling the actual experimental set up that is present in real time labs.
+Set up consists of a Reservoir tank containing large amount of volume connected to a centrifugal pump by the help of 2 cm diameter pipe. The outlet of the pump is also connected with 2 cm diameter vertical pipe, attached to the conduit. There is a delivery valve present in between delivery pipe connecting to the conduit1. The outlet pipe of variable diameter just like venturimeter is connected from the bottom of conduit1 to the conduit2 know as duct. In the duct at regular intervals piezometers are attached for measuring pressure head. 11 piezometers are present in  duct of length 900 mm.
+At the outlet of the conduit2 there is  outlet valve for regulating the flow rate through the duct. Then from the conduit 2 a pipe is attached that drops the water into the collecting tank. This collecting tank has dimensions of 40*40 cm2. This collecting tank also contains a attached manometer tube for measuring height in the tank. At the bottom side of collecting tank there is a gate valve which in close condition prevents the fall of water back into the reservoir. The reservoir is present just below the collecting tank.
 #### 2.2 Set User Objectives & Goals:
-Describe the objectives and goals in details here : (guide : The user should clearly understand the aims and objective of the experiment. ( how he will begin experiment. ?  in descriptive))
+1) By this experiment student will be able to recall the Bernoulli's theorem. 
+2) This experiment Describe the application of Bernoulli's theorem.
+3) Student will be able to recall the velocity head and pressure head concepts.
+4) To understand the change in the pressure head when flow rate is changed through calculation.
+5) To understand the calculation of flow rate by measuring height in collecting tank.
+6) To plot a graph taking piezometer distances on x-axis and taking total head, Velocity head, Pressure head on Y-axis.
+7) Student will be able to analyse the data obtained from various sections of the pipe at different flow rates through graph.
 
 #### 2.3 Set the Pathway Activities:
 
-Describe the pathway activites here : (Guide : Set the pathway activities in line with the learning objectives (LOs)  & with a view to achieve the goals set in round #0 & round#1.  (once he begins, how he will traverse through the entire experiment ? in descriptive))
+1) In the experimental set up, there is a centrifugal pump, delivery valve, outlet valve and gate valve. This all will be recognised by user as each have naming in the set up.
+2) User will start the pump by clicking on the motor button.
+3) Then user will on the delivery valve present at the delivery side of the pump. Also after that by the help of outlet valve user will regulate the flow rate of water through the duct.
+4) Then by closing the gate valve student will be able to collect water in the collecting tank for measuring height by which student will understand the calculation of flow rate and will calculate the same.
+5) Simulator will provide the respective heights of piezometer and other data needed for doing calculation.
+6) User will do the calculation for pressure head, velocity head and total head. After doing all the calculation student will be able to recall Bernoulli's theorem. 
+7) User will make a plot having piezometers distance on x-axis and taking total head, Velocity head, Pressure head on Y-axis. 
+8) By the help of graph student will be able to analyse the data obtained for different flow rates.
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
