@@ -28,12 +28,14 @@ By this experiment we want students to understand the concep t of mechanical ene
 
 Here we have identified three learning objectives. As both the experiments are based on the universal laws for the subjects therefore it includes remembering of the theorem and facts and then operation or execution the experiment. Further during the operation student will be able to understand the theorem and further based on the observations students will be able to to analyse and reach the outcome.
 
+
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>recall the Bernoulli’s theorem <br> Next line here. | Remembering | Recall
 2.| User will be able to: <br>describe the application of the Bernoulli’s Theorem. | Understand  | Describe
 3.| User will be able to: <br>analyse the data obtained from various sections at the pipe of different flow rates through graph. | analysing | analyse
 
+These experiments are designed such that if students perform the given task completely e then he or she will be able to understand the whole concept of the bernoulli's theorem and Reynolds number via visualising and data analysis
 
 <br/>
 <div align="right">
@@ -48,22 +50,14 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Assessment Method: Submmative
 
 
-1. Switch on the motor
-2. Water will move from reservoir to delivery pipe till delivery valve
-3. Open the delivery valve
-4. Tank, conduit and pipe will fill simultaneously.
-5. Once conduit is filled open outlet valve
-6. Ask the flow rate
-7. Piezometers will start filling up to a certain height.
-8. Height of each piezometer is demonstrated and recorded in the observation table.
-9. Close the gate valve
-10. fluid starts filling in collecting tank
-11. After fluid reaches the opening of measuring tube ask to record initial height and start stop
-watch.
-12. After 30 sec in stop watch stop it. (At this time whole experiment is halted as it is
-completed).
-13. Ask to record final height.
-14. Show the observation table where all the data is recorded in the appropriate columns.
+DESCRIPTION:
+Step by step instructions are provided at each level in the simulator to make it more user friendly.
+
+SCOPE:
+Various changes in flow rate are possible so that user may completely learn the objective.
+
+CALCULATIONS:
+Student have to make calculation on the basis of data obtained from the experiment.
 
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
