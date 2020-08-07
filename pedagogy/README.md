@@ -25,6 +25,7 @@ Discipline | Chemical Engineering
 
 #### 2. Learning Objectives and Cognitive Level
 
+Here we have identified three learning objectives. As both the experiments are based on the universal laws for the subjects therefore it includes remembering of the theorem and facts and then operation or execution the experiment. Further during the operation student will be able to understand the theorem and further based on the observations students will be able to to analyse and reach the outcome.
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
