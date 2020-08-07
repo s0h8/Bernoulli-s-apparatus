@@ -29,7 +29,7 @@ By this experiment we want students to understand the concept of mechanical ener
 <h5>Description:</h5>
 Here we have identified three learning objectives. As both the experiments are based on the universal laws for the subjects therefore it includes remembering of the theorem and facts and then operation or execution the experiment. Further during the operation student will be able to understand the theorem and further based on the observations students will be able to to analyse and reach the outcome.
 
-<h5>Description:</h5>
+<h5>Method:</h5>
 To achieve attainment of all the objectives the experiment is designed for different sets of flow rates so that students may learn through performing.
 <br>
 
