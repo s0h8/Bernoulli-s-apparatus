@@ -90,27 +90,57 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "In the present experiment what are the value of Z",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "Z=2",
+        b: "Z=1.5",
+        c: "Z=0",
+        d: "Z=1"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid? ",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "Yes",                  ///// Write the option 3 inside double quotes
+        d: "No"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },    
+    
+    {
+      question: "If this experiment is conducted in real lab then the result will be same. ",  ///// Write the question inside double quotes
+      answers: {
+        a: "Yes",                  ///// Write the option 3 inside double quotes
+        d: "No"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
-    },                                  ///// To add more questions, copy the section below 
-    									                  ///// this line
+    }, ///// To add more questions, copy the section below 
+    
+    
+    {
+      question: "In Q3 if the result will vary from virtual lab to real lab as ",  ///// Write the question inside double quotes
+      answers: {
+        a:  "Viscosity will differ in real fluid",
+        b: "Ideal fluids doesn’t exist",
+        c: "There will be frictional loss through walls of the conduit",
+        d: "Because of environmental conditions "                ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
+    },   
+    
+    {
+      question: "What pattern does the values of kinetic energy follows (through the graphs) ",  ///// Write the question inside double quotes
+      answers: {
+        a:  "It first increases then decreases at the length of the conduit",
+        b: "It remains constant throughout the conduit",
+        c: "It first decreases then increases at the length of the conduit",
+        d: "It is zero throughout the conduit. "              ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },    	
+    ///// this line
 
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
