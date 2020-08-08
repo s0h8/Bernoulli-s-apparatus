@@ -40,9 +40,9 @@ At the outlet of the conduit2 there is  outlet valve for regulating the flow rat
 8) By the help of graph student will be able to analyse the data obtained for different flow rates.
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
-1) If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid? (<b>Y<\b>,N) (LO1 & LO2)<br>
+1) If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid? (<b>Y</b>,N) (LO1 & LO2)<br>
 2) What pattern does the values of kinetic energy follows (through the graphs) (LO1; LO2 and LO 3)<br>
-a)	It first increases then decreases at the length of the conduit <\b>.<br>
+a)	It first increases then decreases at the length of the conduit </b>.<br>
 b)	It remains constant throughout the conduit.<br>
 c)	It first decreases then increases at the length of the conduit.<br>
 d)	It is zero throughout the conduit.<br>
