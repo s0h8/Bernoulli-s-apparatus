@@ -11,6 +11,10 @@ The objective of the experiment is to recall the Bernoulli's theorem and verify 
 
 ### 2. Story:
 
+First user will switch on the motor. Then water will start to flow from reservoir through delivery pipe to the delivery valve. Then user will open the delivery valve and flow of water occurs which fill the tank, conduit and pipe simultaneously. Once conduit is filled open the outlet valve.
+Then user will regulate the flow rate by using outlet valve. Meanwhile piezometers will start filling up to a certain height. Height of each piezometer is demonstrated and recorded by the user. 
+Now user will close the gate valve, fluid will start filling in collecting tank. After 30 seconds final height will appear on the simulator and this height will be recorded by the user for calculating flow rate of water through the valve
+
 #### 2.1 Set the Visual Stage Description:
 In the simulator user will be able to see the virtual prototype of experimental set up resembling the actual experimental set up that is present in real time labs.
 Set up consists of a Reservoir tank containing large amount of volume connected to a centrifugal pump by the help of 2 cm diameter pipe. The outlet of the pump is also connected with 2 cm diameter vertical pipe, attached to the conduit. There is a delivery valve present in between delivery pipe connecting to the conduit1. The outlet pipe of variable diameter just like venturimeter is connected from the bottom of conduit1 to the conduit2 know as duct. In the duct at regular intervals piezometers are attached for measuring pressure head. 11 piezometers are present in  duct of length 900 mm.
