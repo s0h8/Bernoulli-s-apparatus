@@ -7,7 +7,7 @@ Experiment 1: Study and verification of the flow pattern in bernoulli's apparatu
 ### 1. Story Outline:
 
 This experiment involves water that will circulate from the reservoir by the help of pump through the delivery pipe, conduit and piping arrangement, collecting tank then to reservoir again. Between the conduit in the pipe there are piezometers attached at equal distance. 
-The objective of the experiment is to recall the Bernoulli's theorem and verify that. Hence by the help of piezometers user will get the pressure head and velocity head depends on the flow rate of water flowing through pipe. Datum depends on the location of pipe ( height from reference). All can be understood by the user by the help of this experiment and verification of Bernoulli's theorem can be made.
+The objective of the experiment is to recall the Bernoulli's theorem and verify that.
 
 ### 2. Story:
 
