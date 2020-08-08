@@ -49,7 +49,7 @@ d)	It is zero throughout the conduit.<br>
 
 
 ##### 2.5 Allow pitfalls:
-1. If user uses valves without switching on the motor pump, the experiment wouldn't work.
+1. If user does not open outlet valve then conduit2 will overflow after sometime.
 2. If user uses outlet valve just after closing gate valve and the timer is still running, user might get wrong readings.
 
 
