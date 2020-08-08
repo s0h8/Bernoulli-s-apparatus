@@ -10,7 +10,7 @@
 Discipline | Chemical Engineering 
 :--|:--|
  Lab |  Chemical Engineering Fluid Mechanics Lab
- Experiment|      1. Study and verification of the flow pattern in bernoulli's apparatus.
+ Experiment|    Study and verification of the flow pattern in bernoulli's apparatus.
 </b>
 
 <h4> [1. Focus Area](#LO)
@@ -35,16 +35,11 @@ To achieve attainment of all the objectives the experiment is designed for diffe
 
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
-1.| User will be able to: <br>recall the Bernoulli’s theorem <br> Next line here. | Remembering | Recall
+1.| User will be able to: <br>recall the Bernoulli’s theorem <br> Next line here. | Remember | Recall
 2.| User will be able to: <br>describe the application of the Bernoulli’s Theorem. | Understand  | Describe
-3.| User will be able to: <br>analyse the data obtained from various sections at the pipe of different flow rates through graph. | analysing | analyse
+3.| User will be able to: <br>analyse the data obtained from various sections at the pipe of different flow rates through graph. | analyse | analyse
 <br>
 
-<h5>Examine</h5>
-In the experiment for bernoulli's theorem after performing the whole experiment and collecting data the student needs to to plot a graph with the calculated values. And after the graph is plotted the student can analyse the the actual beauty of bernoulli's theorem.
-
-<h5>Conclude</h5>
-This experiment is designed such that if students perform the given task completely then he or she will be able to understand the whole concept of the bernoulli's theorem via visualising and data analysis.
 
 <br/>
 <div align="right">
@@ -65,24 +60,7 @@ Step by step instructions are provided at each level in the simulator to make it
 <h5>SCOPE:</h5>
 Various changes in flow rate are possible so that user may completely learn the objective.
 
-<h5>CALCULATIONS:</h5>
-Student have to make calculation on the basis of data obtained from the experiment. <br>
-<h5>Bernoulli's Theorem:</h5>
-Pressure head+ Velocity head+ datum = total head = constant;
- <br>i.e P/w +{(v<sup>2</sup>)/(2*g)} + z = Total head = constant; <br>
-<br>Flow rate, Q = ( A*H)/ t ;
-<br><br>
-velocity, v = Q/a;
 
-<br> where, 
-p= pressure <br>
-w = weight density <br>
-g= acceleration due to gravity, 9.81 m/(s^2) <br>
-v= Velocity in duct <br>
-A= Area of collecting tank <br>
-a= Area of c/s of duct <br>
-H = height in collecting tank <br>
-t= time for collecting water in collecting tank i.e 30seconds <br>
  <br>
 <div align="right">
     <b><a href="#top">↥ back to top</a></b>
