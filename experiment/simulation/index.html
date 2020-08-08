@@ -97,9 +97,6 @@
         background-color: rgba(155, 207, 207, 0.815);
         width: 12px;
         height: 10px;
-        transition-property: all;
-        transition-duration: 2s;
-        transition: ease;
       }
       .horz-water2 {
         position: absolute;
@@ -227,6 +224,46 @@
         height: 60px;
         background-size: 340%;
       }
+      #table{
+        margin-top:2rem;
+        margin-bottom: 3rem;
+      }
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #0a0a0a;
+        text-align: center;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #c6fff3;
+      }
+      #table h2 {
+        text-align: center;
+        color:#0a0a0a;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #tab-button {
+        
+        margin-top: 2rem;
+        background-color: cadetblue;
+        border: none;
+        color:darkmagenta;
+        width:8rem;
+        height: 3rem;
+        border: 1px solid black;
+    }
+      #tab-button:hover{
+        background: cornflowerblue;
+        color:black;
+        transition: all .3s ease;
+        cursor: pointer;
+    }
     </style>
   </head>
 
@@ -450,6 +487,52 @@
         <label id="motlab">push the motor button to start</label>
         <button id="motbut" class="valve" onclick="clickedMot()"></button>
       </div>
+    </div>
+    <div id="table">
+      <h2>Data Sheet</h2>
+      <table id="tab">
+        <tr>
+            <th rowspan="2">SNo.</th>
+            <th colspan="3">Discharge Measure</th>
+            <th rowspan="2">Discharge Q (cm3/sec)</th>
+            <th colspan="11">Piezometer Reading</th>
+        </tr>
+        <tr>
+            <td id="dm1">Initial (cm)</td>
+            <td id="dm2">Final (cm)</td>
+            <td id="dm2">Time (sec)</td>
+            <td id="pm1">1</td>
+            <td id="pm2">2</td>
+            <td id="pm3">3</td>
+            <td id="pm4">4</td>
+            <td id="pm5">5</td>
+            <td id="pm6">6</td>
+            <td id="pm7">7</td>
+            <td id="pm8">8</td>
+            <td id="pm9">9</td>
+            <td id="pm10">10</td>
+            <td id="pm11">11</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td id="d1m1"></td>
+            <td id="d1m2"></td>
+            <td id="d1m3"></td>
+            <td id="ds1"></td>
+            <td id="p1m1"></td>
+            <td id="p1m2"></td>
+            <td id="p1m3"></td>
+            <td id="p1m4"></td>
+            <td id="p1m5"></td>
+            <td id="p1m6"></td>
+            <td id="p1m7"></td>
+            <td id="p1m8"></td>
+            <td id="p1m9"></td>
+            <td id="p1m10"></td>
+            <td id="p1m11"></td>
+        </tr>
+    </table>
+    <center><button id="tab-button" onclick="dataSheet()">Record</button></center>
     </div>
     <script src="js/valve.js"></script>
   </body>
