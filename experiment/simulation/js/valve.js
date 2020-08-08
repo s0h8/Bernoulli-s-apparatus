@@ -1,26 +1,11 @@
-var flow = 0;
+var flow = 600;
 var dir = 0;
 var rot = 0;
 var h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11;
-var ov = -1;
-var overflow;
+var d = [];
+var temp =0;
 
 function clickedValve() {
-  if (ov == 0) {
-    ov = 1;
-    flow = 600;
-    clearInterval(overflow);
-    var pipe = setInterval(function () {
-      if (j < 37) {
-        document.getElementById("mot" + j).style.opacity = 1;
-        j++;
-      } else {
-        document.getElementById("outlab").style.opacity = 1;
-        clearInterval(pipe);
-      }
-    }, 100);
-  }
-
   document.getElementById("outlab").style.opacity = 0;
   if (flow < 1700 && dir == 0) {
     flow = flow + 100;
@@ -57,14 +42,16 @@ function clickedMot() {
           document.getElementById("mot" + j).style.opacity = 1;
           j++;
         } else {
-          setInterval(calH, 1000);
-          flow = 600;
-          ov = 0;
-          overflow = setInterval(function () {
-            calH();
-            if (flow > 0) flow--;
-          }, 50);
-
+          var pipe = setInterval(function () {
+            if (j < 37) {
+              document.getElementById("mot" + j).style.opacity = 1;
+              j++;
+            } else {
+              document.getElementById("outlab").style.opacity = 1;
+              setInterval(calH, 1000);
+              clearInterval(pipe);
+            }
+          }, 100);
           clearInterval(fillin);
         }
       }, 300);
@@ -86,90 +73,99 @@ function clickedgate() {
     document.getElementById("mot36").style.opacity = 0;
 
     document.getElementById("labFlow").innerText = "";
-    if (ov == 1) {
-      var timeo = setTimeout(function () {
-        document.getElementById("labFlow").innerText =
-          "final height: " + 0.01875 * flow;
-      }, 30000);
-      i = 30;
-      var inter = setInterval(function () {
-        document.getElementById("timer").innerText = "" + i;
-        i--;
 
+    setTimeout(function () {
+      document.getElementById("labFlow").innerText =
+        "final height: " + 0.01875 * flow;
+    }, 30000);
+
+    i = 30;
+    var inter = setInterval(function () {
+      document.getElementById("timer").innerText = "" + i;
+      i--;
+      {
         var h = document.getElementById("fillfinal");
         var height = 90 - i * 3;
         h.style.top = 425 - height;
         h.style.height = height;
+      }
 
-        if (gate == 1) {
-          i = 30;
-          document.getElementById("timer").innerText = "";
-          var s2 = setInterval(function () {
-            h.style.top = 422;
-            h.style.height = 3;
+      if (i == 0) {
+        i = 30;
 
-            clearTimeout(timeo);
-            clearInterval(s2);
-            clearInterval(inter);
-          }, 100);
-        }
-        if (i == 0) {
-          i = 30;
-
-          document.getElementById("timer").innerText = "";
-          clearInterval(inter);
-        }
-      }, 1000);
-    }
+        document.getElementById("timer").innerText = "";
+        clearInterval(inter);
+      }
+    }, 1000);
   } else {
     document.getElementById("gatebut").style.transform = "rotate(" + 0 + "deg)";
-    if (ov == 1) {
-      document.getElementById("mot35").style.opacity = 1;
-      document.getElementById("mot36").style.opacity = 1;
-    }
+    document.getElementById("mot35").style.opacity = 1;
+    document.getElementById("mot36").style.opacity = 1;
     gate = 1;
   }
 }
+var r = 1 ;
+function dataSheet(){
+  //console.log(d);
+  for (var i=0;i<11;i++){
+    //console.log("p"+r+"m"+(i+1));
+    document.getElementById("p"+r+"m"+(i+1)).innerHTML = d[i];
+    
+  }
+  r++;
+  createRow();
+}
+function createRow(){
+  var x;
+  var y;
+  
+  var p = document.getElementById("tab");
+  x = document.createElement('tr');
+  p.appendChild(x);
+  y=document.createElement('td');
+  y.innerHTML = r;
+  x.appendChild(y);
+  for(var i = 0; i<3;i++){
+    y = document.createElement('td');
+    y.setAttribute('id', "d"+r+"m"+(i+1));
+    x.appendChild(y);
+  }
+  y = document.createElement('td');
+  y.setAttribute('id','ds'+r);
+  x.appendChild(y);
+  for(var i=0;i<11;i++){
+    y = document.createElement('td');
+    y.setAttribute('id', "p"+r+"m"+(i+1));
+    x.appendChild(y);
+  }
+  
+}
+
 
 function calH() {
-  var h1 = 28.84 - (2.46 * flow * flow) / 1000000;
-  var h2 = 28.84 - (2.93 * flow * flow) / 1000000;
-  var h3 = 28.84 - (3.54 * flow * flow) / 1000000;
-  var h4 = 28.84 - (4.37 * flow * flow) / 1000000;
-  var h5 = 28.84 - (6.02 * flow * flow) / 1000000;
-  var h6 = 28.84 - (7.96 * flow * flow) / 1000000;
-  var h7 = h5;
-  var h8 = h4;
-  var h9 = h3;
-  var h10 = h2;
-  var h11 = h1;
-  if (flow != 0) {
-    document.getElementById("h1").innerText =
-      "h1:" + h1.toString().substring(0, 6);
-    document.getElementById("h2").innerText =
-      "h2:" + h2.toString().substring(0, 6);
-    document.getElementById("h3").innerText =
-      "h3:" + h3.toString().substring(0, 6);
-    document.getElementById("h4").innerText =
-      "h4:" + h4.toString().substring(0, 6);
-    document.getElementById("h5").innerText =
-      "h5:" + h5.toString().substring(0, 6);
-    document.getElementById("h6").innerText =
-      "h6:" + h6.toString().substring(0, 6);
-    document.getElementById("h7").innerText =
-      "h7:" + h7.toString().substring(0, 6);
-    document.getElementById("h8").innerText =
-      "h8:" + h8.toString().substring(0, 6);
-    document.getElementById("h9").innerText =
-      "h9:" + h9.toString().substring(0, 6);
-    document.getElementById("h10").innerText =
-      "h10:" + h10.toString().substring(0, 6);
-    document.getElementById("h11").innerText =
-      "h11:" + h11.toString().substring(0, 6);
-  } else {
-    for (i = 1; i < 12; i++)
-      document.getElementById("h" + i).innerText = "Overflow";
-  }
+  h1 = 28.84 - (2.46 * flow * flow) / 1000000;
+  h2 = 28.84 - (2.93 * flow * flow) / 1000000;
+  h3 = 28.84 - (3.54 * flow * flow) / 1000000;
+  h4 = 28.84 - (4.37 * flow * flow) / 1000000;
+  h5 = 28.84 - (6.02 * flow * flow) / 1000000;
+  h6 = 28.84 - (7.96 * flow * flow) / 1000000;
+  h7 = h5;
+  h8 = h4;
+  h9 = h3;
+  h10 = h2;
+  h11 = h1;
+
+  document.getElementById("h1").innerText = "h1:" + h1;
+  document.getElementById("h2").innerText = "h2:" + h2;
+  document.getElementById("h3").innerText = "h3:" + h3;
+  document.getElementById("h4").innerText = "h4:" + h4;
+  document.getElementById("h5").innerText = "h5:" + h5;
+  document.getElementById("h6").innerText = "h6:" + h6;
+  document.getElementById("h7").innerText = "h7:" + h7;
+  document.getElementById("h8").innerText = "h8:" + h8;
+  document.getElementById("h9").innerText = "h9:" + h9;
+  document.getElementById("h10").innerText = "h10:" + h10;
+  document.getElementById("h11").innerText = "h11:" + h11;
 
   {
     var h = document.getElementById("fillh1");
@@ -194,6 +190,7 @@ function calH() {
     var height = h4 * 3;
     h.style.top = 223 - height;
     h.style.height = height;
+    
   }
   {
     var h = document.getElementById("fillh5");
@@ -215,27 +212,43 @@ function calH() {
   }
   {
     var h = document.getElementById("fillh8");
-    var height = h7 * 3;
-    h.style.top = 223 - height;
-    h.style.height = height;
-  }
-  {
-    var h = document.getElementById("fillh9");
     var height = h8 * 3;
     h.style.top = 223 - height;
     h.style.height = height;
+    
+  }
+  {
+    var h = document.getElementById("fillh9");
+    var height = h9 * 3;
+    h.style.top = 223 - height;
+    h.style.height = height;
+    
   }
   {
     var h = document.getElementById("fillh10");
     var height = h10 * 3;
     h.style.top = 223 - height;
     h.style.height = height;
+    
   }
   {
     var h = document.getElementById("fillh11");
     var height = h11 * 3;
     h.style.top = 223 - height;
     h.style.height = height;
+    
   }
+  
+  d[0]=h1;
+  d[1]=h2;
+  d[2]=h3;
+  d[3]=h4;
+  d[4]=h5;
+  d[5]=h6;
+  d[6]=h7;
+  d[7]=h8;
+  d[8]=h9;
+  d[9]=h10;
+  d[10]=h11;
+  console.log(h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11);
 }
-console.log("HEY!!");
