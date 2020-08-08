@@ -40,11 +40,16 @@ At the outlet of the conduit2 there is  outlet valve for regulating the flow rat
 8) By the help of graph student will be able to analyse the data obtained for different flow rates.
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
+1) If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid? (<b>Y<\b>,N) (LO1 & LO2)<br>
+2) What pattern does the values of kinetic energy follows (through the graphs) (LO1; LO2 and LO 3)<br>
+a)	It first increases then decreases at the length of the conduit <\b>.<br>
+b)	It remains constant throughout the conduit.<br>
+c)	It first decreases then increases at the length of the conduit.<br>
+d)	It is zero throughout the conduit.<br>
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
 
 ##### 2.5 Allow pitfalls:
-1. If user uses valves without switching on the motor pump, the experiment wouldnt work.
+1. If user uses valves without switching on the motor pump, the experiment wouldn't work.
 2. If user uses outlet valve just after closing gate valve and the timer is still running, user might get wrong readings.
 
 
