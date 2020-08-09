@@ -7,7 +7,7 @@ This folder has
 Bernoulli’s equation states that:<br>
 “In an ideal, incompressible fluid flow when the flow is steady and continuous, the sum of pressure energy, kinetic energy and potential energy is constant along a stream line”.
 
-### Mathematical Representation,
+Mathematical Representation,
 	 
 P/w + v<sup>2</sup>/2g + z = Constant
 
