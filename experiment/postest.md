@@ -15,7 +15,7 @@ a)	Viscosity will differ in real fluid<br>
 b)	<b>Ideal fluids doesn’t exist</b><br>
 c)	There will be frictional loss through walls of the conduit<br>
 d)	Because of environmental conditions
-<br>
+<br><br>
 5.	What pattern does the values of kinetic energy follows (through the graphs) (LO1, LO2 and LO 3)<br>
 a)	<b>It first increases then decreases at the length of the conduit<br></b>
 b)	It remains constant throughout the conduit<br>
