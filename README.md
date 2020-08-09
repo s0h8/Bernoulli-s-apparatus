@@ -25,7 +25,30 @@ Chemical Engineering Fluid Mechanics Lab (KCH-351)
 
 <h5> Universities Mapped : </h5>
  Dr. A.P.J. Abdul Kalam Technical University (AKTU) <br>
-
+ Guru Gobind Singh Indraprastha University (GGSIPU)
+ Galgotias University
+ Nirma University
+ RGIPT, Raebareli
+ HBTU, Kanpur
+ AMU, Aligarh
+ UPES, Dehradun
+ AMTY University
+ GD Goenka University
+ PARUL University
+ ICET Mumbai
+ Mumbai University 
+ CCS University
+ IIT DELHI
+ IIT ROORKEE
+ IIT KANPUR
+ IIT KHARAGPUR
+ IIT GANDHINAGAR
+ IIT ROPAR
+ IIT BHU
+ IIT GUWAHATI
+ IIT BOMBAY
+ IIT MADRAS
+ 
 
 <b>Name of Developer | <b> Dr. Neha Sharma
 :--|:--|
