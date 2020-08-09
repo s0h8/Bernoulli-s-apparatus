@@ -17,7 +17,7 @@ By this experiment we want students to understand the concep t of mechanical ene
 
 <h5> Target Audience : </h5>
 
-UG AND PG students of chemical engineering.
+UG and PG students of chemical engineering.
 
 <h5> Course Alignment : </h5>
 
