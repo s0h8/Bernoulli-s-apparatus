@@ -117,10 +117,10 @@
       question: "Which of the following is Bernoulli's equation? ",
       answers: {
         a:	"P1 + ½ ρv1^2 + ρgh1 = P2 + ½ ρv2^2 + ρgh2",
-b:	"P2 + ½ ρv2^2 + ρgh2 = P1 + ½ ρv1^2 + ρgh1",
-c:	"P2 = P1 + ½ ρv1^2 - ½ ρv2^2 + ρgh1 - ρgh2",
-d:	"P2 = P1 + ½ρ(v1^2 - v2^2) + ρg(h1 - h2)",
-e:	"All are correct"
+        b:	"P2 + ½ ρv2^2 + ρgh2 = P1 + ½ ρv1^2 + ρgh1",
+        c:	"P2 = P1 + ½ ρv1^2 - ½ ρv2^2 + ρgh1 - ρgh2",
+        d:	"P2 = P1 + ½ρ(v1^2 - v2^2) + ρg(h1 - h2)",
+        e:	"All are correct"
 
       },
       correctAnswer: "e"
@@ -130,11 +130,11 @@ e:	"All are correct"
       question: "The following are the assumption made in the derivation of Bernoulli’s equation: ",
       answers: {
        a:"	The fluid is ideal or perfect, only.",
-b:"	The flow is steady, only.",
-c:"	There is no energy loss while flowing, only.",
-d:"	The flow is incompressible, only.",
-e:"	The flow is Irrotational, only.",
-f:"	All of the above"
+       b:"	The flow is steady, only.",
+       c:"	There is no energy loss while flowing, only.",
+       d:"	The flow is incompressible, only.",
+       e:"	The flow is Irrotational, only.",
+       f:"	All of the above"
 
       },
       correctAnswer: "f"
@@ -144,7 +144,7 @@ f:"	All of the above"
       question: "5.	Can this experiment work when the conduit is half filled? ",
       answers: {
        a:"	Yes",
-b:"	No"
+        b:"	No"
       },
       correctAnswer: "b"
     },
