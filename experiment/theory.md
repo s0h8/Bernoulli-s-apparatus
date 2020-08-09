@@ -22,4 +22,5 @@ The water flowing through the section of a pipe or a channel under the steady st
 
 <img src="images/bern-form2.bmp" />
 
-	 
+<h5>Experimental Figure</h5>
+<img src="images/Bern-exp.png" />
