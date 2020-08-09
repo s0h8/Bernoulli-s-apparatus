@@ -24,7 +24,8 @@ UG AND PG students of chemical engineering.
 Chemical Engineering Fluid Mechanics Lab (KCH-351)   
 
 <h5> Universities Mapped : </h5>
-AKTU<br>
+ Dr. A.P.J. Abdul Kalam Technical University (AKTU) <br>
+
 
 <b>Name of Developer | <b> Neha Sharma
 :--|:--|
