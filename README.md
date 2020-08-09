@@ -59,9 +59,9 @@ Chemical Engineering Fluid Mechanics Lab (KCH-351)
 
 #### Mentor Details
 
-<b>Mentored by | <b> Senthil Subramanian
+<b>Mentored by | <b> Mr. Senthil Subramanian
 :--|:--|
-<b> Institute | <b> Sharda group of institutions
+<b> Institute | <b> Sharda Group of Institutions
 <b> Email id|     <b> tss.senthil.hcst@sgei.org
 
 #### Contributors List
