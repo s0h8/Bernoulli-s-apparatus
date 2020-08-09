@@ -4,6 +4,7 @@ var rot = 0;
 var h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11;
 var d = [];
 var temp =0;
+var finalht = 0;
 
 function clickedValve() {
   document.getElementById("outlab").style.opacity = 0;
@@ -77,6 +78,7 @@ function clickedgate() {
     setTimeout(function () {
       document.getElementById("labFlow").innerText =
         "final height: " + 0.01875 * flow;
+        finalht = 0.01875 * flow;
     }, 30000);
 
     i = 30;
@@ -88,6 +90,7 @@ function clickedgate() {
         var height = 90 - i * 3;
         h.style.top = 425 - height;
         h.style.height = height;
+        
       }
 
       if (i == 0) {
@@ -104,12 +107,24 @@ function clickedgate() {
     gate = 1;
   }
 }
+//------------------------TABLES Coding starts from here--------------------------------------------------------
 var r = 1 ;
 function dataSheet(){
   //console.log(d);
+  for(var i=0;i<3;i++){
+    if( i == 0)
+      document.getElementById("dt"+r+"m"+(i+1)).innerHTML = 0;
+    else if( i == 1)
+      document.getElementById("dt"+r+"m"+2).innerHTML = finalht.toFixed(4);
+    else 
+      document.getElementById("dt"+r+"m"+(i+1)).innerHTML = 30;
+  }
+  //console.log(finalht);
+  var k = (1600*finalht)/30;
+    document.getElementById("ds"+r).innerHTML = k;
   for (var i=0;i<11;i++){
     //console.log("p"+r+"m"+(i+1));
-    document.getElementById("p"+r+"m"+(i+1)).innerHTML = d[i];
+    document.getElementById("p"+r+"m"+(i+1)).innerHTML = d[i].toFixed(4);
     
   }
   r++;
@@ -127,7 +142,7 @@ function createRow(){
   x.appendChild(y);
   for(var i = 0; i<3;i++){
     y = document.createElement('td');
-    y.setAttribute('id', "d"+r+"m"+(i+1));
+    y.setAttribute('id', "dt"+r+"m"+(i+1));
     x.appendChild(y);
   }
   y = document.createElement('td');
@@ -140,8 +155,67 @@ function createRow(){
   }
   
 }
-
-
+var c = 1;
+function tableSecond(){
+  var y,v,pp,vg;
+  var dis = 7.5;
+  var areaArr = [14.4,13.2,12.0,10.8,9.2,8.0,9.2,10.8,12,13.2,14.4];
+  createTable();
+  for(var i =0;i <11;i++){
+    console.log("Helo  "+i)
+    for(var j = 1; j<= 7; j++){
+      y = document.getElementById('c'+c+'d'+(i+1)+'m'+j);
+      if(j == 1) 
+        y.innerHTML = i+1;
+      else if(j ==2 ){
+        y.innerHTML = dis;
+        dis += 7.5;
+      }
+      else if( j==3)
+        y.innerHTML = areaArr[i];
+      else if( j== 4){
+        var q = document.getElementById("ds"+c).innerHTML;
+        //console.log("Q = "+q);
+        v = q/areaArr[i];
+        y.innerHTML = v.toFixed(4);
+      }
+      else if(j == 5){
+        vg = (v*v)/(2*981);
+        y.innerHTML = vg.toFixed(4);
+      }
+      else if(j == 6){
+        pp = d[i];
+        y.innerHTML = pp.toFixed(4);
+      }
+      else{
+        y.innerHTML = (pp + vg).toFixed(4);
+      }
+    }
+  }
+  c+=1;
+  
+}
+function createTable() {
+  var x,y,tc,tr;
+  var p = document.getElementById("tab-1");
+  for(var i =0;i <11;i++){
+    x = document.createElement('tr');
+    p.appendChild(x);
+    for(var j = 1; j<= 7; j++){
+      y = document.createElement('td');
+      y.setAttribute('id','c'+c+'d'+(i+1)+'m'+j);
+      if(j == 1)
+        y.innerHTML = c;
+      x.appendChild(y);
+    }
+  }
+  tc=document.createElement('tr');
+  p.appendChild(tc);
+  tr=document.createElement('td');
+  tc.appendChild(tr);
+  tr.innerHTML = "Next Record:"
+}
+//--------------------------TABLES Coding Ends here ------------------------------------------------
 function calH() {
   h1 = 28.84 - (2.46 * flow * flow) / 1000000;
   h2 = 28.84 - (2.93 * flow * flow) / 1000000;
