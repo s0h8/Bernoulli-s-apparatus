@@ -677,7 +677,7 @@
      inkscape:document-rotation="0"
      inkscape:current-layer="layer1"
      inkscape:document-units="mm"
-     inkscape:cy="525.74491"
+     inkscape:cy="490.01364"
      inkscape:cx="606.10211"
      inkscape:zoom="0.54660447"
      inkscape:pageshadow="2"
@@ -1390,7 +1390,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
        x="46.144875"
        y="171.7326"
        id="text1059"><tspan
@@ -1398,48 +1398,49 @@
          id="tspan1057"
          x="46.144875"
          y="171.7326"
-         style="font-size:5.64444px;stroke-width:0.264583">Water Pump</tspan></text>
+         style="font-size:5.64444px;stroke-width:0.264583;fill:#800000;">Water Pump</tspan></text>
     <text
        id="text1059-6"
        y="143.31049"
        x="227.47733"
        style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:31.4566;display:inline;mix-blend-mode:exclusion;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       transform="translate(3.7041668,3.7041668)"><tspan
          x="227.47733"
          y="143.31049"><tspan
-           style="font-size:5.64444px;stroke-width:0.264583">collecting </tspan></tspan><tspan
+           style="fill:#d40000">collecting </tspan></tspan><tspan
          x="227.47733"
          y="150.36604"><tspan
-           style="font-size:5.64444px;stroke-width:0.264583">tank</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#d40000;stroke-width:0.264583">tank</tspan></tspan></text>
     <text
        id="text1059-7"
-       y="175.25772"
-       x="204.72702"
-       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;display:inline;mix-blend-mode:exclusion;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       y="184.25343"
+       x="213.72273"
+       style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;display:inline;mix-blend-mode:exclusion;fill:#ff5555;fill-opacity:1;stroke:none;stroke-width:0.264583"
        xml:space="preserve"><tspan
-         style="font-size:5.64444px;stroke-width:0.264583"
-         y="175.25772"
-         x="204.72702"
+         style="font-size:7.05556px;fill:#ff5555;stroke-width:0.264583"
+         y="184.25343"
+         x="213.72273"
          id="tspan1057-4"
          sodipodi:role="line">Water Reservoir</tspan></text>
     <text
        id="text1059-3"
        y="34.399475"
-       x="129.21538"
-       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;display:inline;mix-blend-mode:exclusion;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="120.74876"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;display:inline;mix-blend-mode:exclusion;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
        xml:space="preserve"><tspan
-         style="font-size:5.64444px;stroke-width:0.264583"
+         style="font-size:5.64444px;stroke-width:0.264583;fill:#ff0000;"
          y="34.399475"
-         x="129.21538"
+         x="120.74876"
          id="tspan1057-9"
          sodipodi:role="line">Piezometers</tspan></text>
     <text
        id="text1059-74"
        y="82.804375"
        x="238.61044"
-       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;display:inline;mix-blend-mode:exclusion;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;display:inline;mix-blend-mode:exclusion;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
        xml:space="preserve"><tspan
-         style="font-size:5.64444px;stroke-width:0.264583"
+         style="font-size:5.64444px;stroke-width:0.264583;fill:#ff0000;"
          y="82.804375"
          x="238.61044"
          id="tspan1057-6"
@@ -1448,24 +1449,13 @@
        id="text1059-4"
        y="143.79454"
        x="184.88101"
-       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;display:inline;mix-blend-mode:exclusion;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;display:inline;mix-blend-mode:exclusion;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
        xml:space="preserve"><tspan
-         style="font-size:5.64444px;stroke-width:0.264583"
+         style="font-size:5.64444px;stroke-width:0.264583;fill:#ff0000;"
          y="143.79454"
          x="184.88101"
          id="tspan1057-5"
          sodipodi:role="line">Gate Valve</tspan></text>
-    <text
-       id="text1059-9"
-       y="20.362057"
-       x="223.12088"
-       style="font-style:normal;font-weight:normal;font-size:5.64444px;line-height:1.25;font-family:sans-serif;display:inline;mix-blend-mode:exclusion;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       xml:space="preserve"><tspan
-         style="font-size:5.64444px;stroke-width:0.264583"
-         y="20.362057"
-         x="223.12088"
-         id="tspan1057-57"
-         sodipodi:role="line">Stop Watch</tspan></text>
   </g>
   <g
      style="display:inline;mix-blend-mode:normal"

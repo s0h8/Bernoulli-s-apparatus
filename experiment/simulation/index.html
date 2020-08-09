@@ -11,6 +11,10 @@
         background-image: url("images/drawing.svg");
         background-size: 100%;
       }
+      .container {
+        display: flex;
+        flex-direction: row;
+      }
       .valve {
         height: 30px;
         width: 30px;
@@ -61,14 +65,24 @@
         left: 710px;
       }
       #timer {
+        position: absolute;
         top: 50px;
-        left: 720px;
+        left: 660px;
+        height: 100px;
+        width: 100px;
         font-size: 28px;
       }
       #piezoDiv {
         position: absolute;
-        top: 3px;
+        top: 40px;
         left: 250px;
+        font-size: 10px;
+        font-weight: bold;
+      }
+      #piezoDiv2 {
+        position: absolute;
+        top: 40px;
+        left: 430px;
         font-size: 10px;
         font-weight: bold;
       }
@@ -97,6 +111,9 @@
         background-color: rgba(155, 207, 207, 0.815);
         width: 12px;
         height: 10px;
+        transition-property: all;
+        transition-duration: 2s;
+        transition: ease;
       }
       .horz-water2 {
         position: absolute;
@@ -224,8 +241,8 @@
         height: 60px;
         background-size: 340%;
       }
-      #table{
-        margin-top:2rem;
+      #table {
+        margin-top: 2rem;
         margin-bottom: 3rem;
       }
       table {
@@ -233,271 +250,457 @@
         border-collapse: collapse;
         width: 100%;
       }
-      
-      td, th {
+
+      td,
+      th {
         border: 1px solid #0a0a0a;
         text-align: center;
         padding: 8px;
       }
-      
+
       tr:nth-child(even) {
         background-color: #c6fff3;
       }
       #table h2 {
         text-align: center;
-        color:#0a0a0a;
+        color: #0a0a0a;
         font-family: Arial, Helvetica, sans-serif;
       }
       .tab-button {
-        
         margin-top: 2rem;
         background-color: cadetblue;
         border: none;
-        color:darkmagenta;
-        width:8rem;
+        color: darkmagenta;
+        width: 8rem;
         height: 3rem;
         border: 1px solid black;
-    }
-      .tab-button:hover{
+      }
+      .tab-button:hover {
         background: cornflowerblue;
-        color:black;
-        transition: all .3s ease;
+        color: black;
+        transition: all 0.3s ease;
         cursor: pointer;
-    }
+      }
     </style>
   </head>
 
   <body>
     <div id="container">
-      <div id="struct">
-        <div id="piezoDiv">
-          <label id="h1"></label><br />
-          <label id="h2"></label><br />
-          <label id="h3"></label><br />
-          <label id="h4"></label><br />
-          <label id="h5"></label><br />
-          <label id="h6"></label><br />
-          <label id="h7"></label><br />
-          <label id="h8"></label><br />
-          <label id="h9"></label><br />
-          <label id="h10"></label><br />
-          <label id="h11" class="peizo"></label>
+      <center>
+        <div id="struct">
+          <div id="piezoDiv">
+            <label id="h1"></label><br />
+            <label id="h2"></label><br />
+            <label id="h3"></label><br />
+            <label id="h4"></label><br />
+            <label id="h5"></label><br />
+            <label id="h6"></label><br />
+          </div>
+          <div id="piezoDiv2">
+            <label id="h7"></label><br />
+            <label id="h8"></label><br />
+            <label id="h9"></label><br />
+            <label id="h10"></label><br />
+            <label id="h11" class="peizo"></label>
+          </div>
+          <div id="timer">
+            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+            <svg
+              xmlns:dc="http://purl.org/dc/elements/1.1/"
+              xmlns:cc="http://creativecommons.org/ns#"
+              xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+              xmlns:svg="http://www.w3.org/2000/svg"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+              xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+              height="100"
+              viewBox="0 0 25 25"
+              width="100"
+              version="1.1"
+              id="svg32"
+              sodipodi:docname="chronometer.svg"
+              inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+            >
+              <metadata id="metadata38">
+                <rdf:RDF>
+                  <cc:Work rdf:about="">
+                    <dc:format>image/svg+xml</dc:format>
+                    <dc:type
+                      rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+                    />
+                    <dc:title></dc:title>
+                  </cc:Work>
+                </rdf:RDF>
+              </metadata>
+              <defs id="defs36">
+                <clipPath clipPathUnits="userSpaceOnUse" id="clipPath981">
+                  <rect
+                    style="
+                      opacity: 0;
+                      fill: #ffff00;
+                      fill-opacity: 0.630522;
+                      fill-rule: nonzero;
+                      stroke: #000000;
+                      stroke-width: 1;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke-miterlimit: 4;
+                      stroke-dasharray: none;
+                      stroke-opacity: 0.831325;
+                      paint-order: stroke fill markers;
+                    "
+                    id="rect983"
+                    width="17.368031"
+                    height="36.401485"
+                    x="-16.178438"
+                    y="3.0929368"
+                  />
+                </clipPath>
+                <clipPath id="clipPath981-6" clipPathUnits="userSpaceOnUse">
+                  <rect
+                    y="3.0929368"
+                    x="-16.178438"
+                    height="36.401485"
+                    width="17.368031"
+                    id="rect983-4"
+                    style="
+                      opacity: 0;
+                      fill: #ffff00;
+                      fill-opacity: 0.630522;
+                      fill-rule: nonzero;
+                      stroke: #000000;
+                      stroke-width: 1;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke-miterlimit: 4;
+                      stroke-dasharray: none;
+                      stroke-opacity: 0.831325;
+                      paint-order: stroke fill markers;
+                    "
+                  />
+                </clipPath>
+              </defs>
+              <sodipodi:namedview
+                inkscape:document-rotation="0"
+                pagecolor="#ffffff"
+                bordercolor="#666666"
+                borderopacity="1"
+                objecttolerance="10"
+                gridtolerance="10"
+                guidetolerance="10"
+                inkscape:pageopacity="0"
+                inkscape:pageshadow="2"
+                inkscape:window-width="1366"
+                inkscape:window-height="706"
+                id="namedview34"
+                showgrid="false"
+                inkscape:zoom="2.5722563"
+                inkscape:cx="76.107085"
+                inkscape:cy="61.609174"
+                inkscape:window-x="-8"
+                inkscape:window-y="-8"
+                inkscape:window-maximized="1"
+                inkscape:current-layer="svg32"
+              />
+              <g
+                transform="matrix(0.19579879,0,0,0.18928339,0.87936587,0.36357987)"
+                id="g863"
+              >
+                <circle
+                  cx="64"
+                  cy="72.372002"
+                  fill="#3ea2e5"
+                  r="49.320999"
+                  id="circle2"
+                />
+                <circle
+                  cx="64"
+                  cy="72.372002"
+                  fill="#dfeef4"
+                  r="37.911999"
+                  id="circle4"
+                />
+                <g fill="#f45858" id="g16">
+                  <circle cx="64" cy="72.372002" r="6.243" id="circle6" />
+                  <path
+                    d="m 54.576,6.306 h 18.847 v 8.249 H 54.576 Z"
+                    id="path8"
+                  />
+                  <path
+                    d="m 91.966,31.752 0.1,0.055 5.833,-10.154 -7.152,-4.109 -5.83,10.147 0.088,0.051 a 49.189,49.189 0 0 1 6.961,4.01 z"
+                    id="path10"
+                  />
+                  <path
+                    d="M 36.035,31.751 A 49.213,49.213 0 0 1 43,27.742 l 0.088,-0.051 -5.83,-10.147 -7.152,4.109 5.833,10.154 z"
+                    id="path12"
+                  />
+                  <path
+                    d="m 59.876,14.555 v 8.666 h 0.194 c 1.3,-0.1 2.606,-0.17 3.93,-0.17 1.324,0 2.632,0.068 3.93,0.17 h 0.194 v -8.666 z"
+                    id="path14"
+                  />
+                </g>
+                <path
+                  id="path18"
+                  d="m 17.659,83.168 a 47.58,47.58 0 0 1 85.486,-37.835 1.7500677,1.7500677 0 0 0 2.878,-1.992 51.126,51.126 0 0 0 -11.671,-12.01 l 5.06,-8.807 a 1.75,1.75 0 0 0 -0.645,-2.389 l -7.153,-4.109 a 1.75,1.75 0 0 0 -2.389,0.646 l -5.058,8.8 A 50.994,50.994 0 0 0 69.874,21.65 v -5.345 h 3.55 a 1.75,1.75 0 0 0 1.75,-1.75 V 6.307 a 1.749,1.749 0 0 0 -1.75,-1.75 H 54.576 a 1.749,1.749 0 0 0 -1.75,1.75 v 8.248 a 1.75,1.75 0 0 0 1.75,1.75 h 3.55 v 5.344 a 50.663,50.663 0 0 0 -14.3,3.814 l -5.051,-8.791 a 1.749,1.749 0 0 0 -2.389,-0.646 l -7.153,4.109 a 1.75,1.75 0 0 0 -0.645,2.389 l 5.059,8.805 a 51.105,51.105 0 0 0 -19.4,52.63 1.75,1.75 0 0 0 1.7,1.355 1.813,1.813 0 0 0 0.4,-0.045 1.751,1.751 0 0 0 1.312,-2.101 z m 73.729,-63.235 4.117,2.367 -4.047,7.044 c -1.336,-0.853 -2.7,-1.651 -4.111,-2.376 z M 56.326,8.057 h 15.348 v 4.748 H 56.326 Z m 5.3,8.248 h 4.748 v 5.069 C 65.585,21.337 64.8,21.3 64,21.3 c -0.8,0 -1.587,0.024 -2.374,0.061 z m -29.131,5.995 4.117,-2.365 4.044,7.039 q -2.115,1.092 -4.113,2.372 z"
+                />
+                <path
+                  id="path20"
+                  d="m 110.222,50.623 a 1.75,1.75 0 0 0 -3.166,1.492 47.579,47.579 0 0 1 -80.226,49.949 1.749,1.749 0 0 0 -2.73,2.186 51.081,51.081 0 0 0 86.124,-53.627 z"
+                />
+                <path
+                  id="path22"
+                  d="m 20.135,90.813 a 1.751,1.751 0 0 0 -3.227,1.358 c 0.609,1.445 1.293,2.88 2.035,4.267 a 1.75,1.75 0 1 0 3.086,-1.651 C 21.338,93.5 20.7,92.158 20.135,90.813 Z"
+                />
+                <path
+                  id="path24"
+                  d="m 98.219,52.319 a 1.672,1.672 0 0 0 -0.1,-0.135 39.942,39.942 0 0 0 -14.105,-14.032 1.515,1.515 0 0 0 -0.15,-0.109 1.608,1.608 0 0 0 -0.175,-0.078 39.516,39.516 0 0 0 -39.565,0.107 1.781,1.781 0 0 0 -0.178,0.082 1.617,1.617 0 0 0 -0.133,0.1 39.951,39.951 0 0 0 -14.035,14.106 0.946,0.946 0 0 0 -0.186,0.324 39.518,39.518 0 0 0 0.108,39.566 1.732,1.732 0 0 0 0.08,0.176 c 0.022,0.038 0.055,0.066 0.079,0.1 a 39.941,39.941 0 0 0 14.123,14.064 1.707,1.707 0 0 0 0.153,0.111 c 0.044,0.025 0.092,0.035 0.137,0.057 a 39.526,39.526 0 0 0 39.65,-0.113 c 0.043,-0.021 0.089,-0.03 0.131,-0.055 0.042,-0.025 0.088,-0.065 0.133,-0.1 A 39.95,39.95 0 0 0 98.244,92.346 c 0.027,-0.039 0.061,-0.068 0.085,-0.11 A 1.443,1.443 0 0 0 98.408,92.061 39.52,39.52 0 0 0 98.3,52.494 1.622,1.622 0 0 0 98.219,52.319 Z M 83.763,102.633 81.514,98.8 a 1.7502357,1.7502357 0 1 0 -3.02,1.77 l 2.252,3.842 a 35.9,35.9 0 0 1 -15,4.082 v -4.465 a 1.75,1.75 0 0 0 -3.5,0 v 4.465 A 35.891,35.891 0 0 1 47.432,104.5 l 2.23,-3.853 a 1.75,1.75 0 0 0 -3.029,-1.753 l -2.227,3.849 A 36.443,36.443 0 0 1 33.739,92.135 l 3.837,-2.248 a 1.75,1.75 0 0 0 -1.769,-3.02 l -3.842,2.252 a 35.9,35.9 0 0 1 -4.083,-15 h 4.465 a 1.75,1.75 0 0 0 0,-3.5 h -4.465 a 35.9,35.9 0 0 1 3.991,-14.818 l 3.854,2.229 a 1.75,1.75 0 0 0 1.752,-3.029 L 33.631,52.774 A 36.44,36.44 0 0 1 44.237,42.111 l 2.249,3.837 a 1.75,1.75 0 0 0 3.02,-1.769 l -2.252,-3.842 a 35.882,35.882 0 0 1 15,-4.082 v 4.464 a 1.75,1.75 0 0 0 3.5,0 v -4.464 a 35.9,35.9 0 0 1 14.818,3.99 L 78.338,44.1 a 1.75,1.75 0 1 0 3.029,1.753 L 83.594,42 a 36.443,36.443 0 0 1 10.667,10.61 l -3.837,2.248 a 1.75,1.75 0 1 0 1.769,3.02 l 3.843,-2.252 a 35.916,35.916 0 0 1 4.082,15 h -4.465 a 1.75,1.75 0 0 0 0,3.5 h 4.465 A 35.9,35.9 0 0 1 96.127,88.94 l -3.853,-2.23 a 1.7502792,1.7502792 0 0 0 -1.753,3.03 l 3.848,2.227 a 36.437,36.437 0 0 1 -10.606,10.666 z"
+                />
+              </g>
+              <g
+                id="g1018"
+                transform="matrix(0.1754563,-0.00135218,0.00133756,0.17737437,2.0458652,1.5057038)"
+              >
+                <path
+                  transform="rotate(-1.6535496,1496.1506,-2414.6504)"
+                  clip-path="url(#clipPath981)"
+                  d="m 19.968658,30.395166 a 1.75,1.75 0 0 0 -1.715929,-1.78342 L 1.4058618,28.28682 a 8.013,8.013 0 0 0 -5.9263081,-6.160426 l 0.324907,-16.845867 a 1.75,1.75 0 0 0 -3.499349,-0.06749 l -0.324907,16.845867 a 7.991,7.991 0 1 0 9.3581651,9.727267 l 16.8468672,0.324926 a 1.751,1.751 0 0 0 1.783421,-1.715929 z m -26.4757333,3.983198 a 4.494,4.494 0 1 1 4.5788051,-4.405524 4.5,4.5 0 0 1 -4.5788051,4.405524 z"
+                  style="paint-order: stroke fill markers;"
+                  id="path26"
+                />
+              </g>
+            </svg>
+            <div id="sui">
+              <svg></svg>
+            </div>
+          </div>
+
+          <label id="labFlow"></label>
+          <div id="shower"></div>
+
+          <div id="mot1" class="horz-water"></div>
+          <div id="mot13" class="horz-water"></div>
+          <!--horizontal-->
+
+          <div id="mot2" class="horz-water"></div>
+          <div id="mot3" class="horz-water"></div>
+          <div id="mot4" class="horz-water"></div>
+          <div id="mot5" class="horz-water"></div>
+          <div id="mot6" class="horz-water"></div>
+          <div id="mot7" class="horz-water"></div>
+          <div id="mot8" class="horz-water"></div>
+          <div id="mot9" class="horz-water"></div>
+          <div id="mot10" class="horz-water"></div>
+          <div id="mot11" class="horz-water"></div>
+          <div id="mot12" class="horz-water"></div>
+          <div id="mot14" class="horz-water"></div>
+
+          <div
+            id="mot19"
+            style="top: 240px; left: 200px;"
+            class="horz-water2 leftfill"
+          ></div>
+          <div
+            id="mot20"
+            style="top: 230px; left: 200px;"
+            class="horz-water2 leftfill"
+          ></div>
+          <div
+            id="mot18"
+            style="top: 230px; left: 142px;"
+            class="horz-water2 leftfill"
+          ></div>
+          <div
+            id="mot17"
+            style="top: 250px; left: 140px;"
+            class="horz-water2 leftfill"
+          ></div>
+          <div
+            id="mot16"
+            style="top: 270px; left: 144px;"
+            class="horz-water2 leftfill"
+          ></div>
+          <div
+            id="mot15"
+            style="top: 290px; left: 142px;"
+            class="horz-water2 leftfill"
+          ></div>
+
+          <div
+            id="mot21"
+            style="top: 230px; left: 270px; width: 60px; height: 20px;"
+            class="horz-water2 mid"
+          ></div>
+          <div
+            id="mot22"
+            style="top: 230px; left: 320px; width: 60px; height: 20px;"
+            class="horz-water2 mid"
+          ></div>
+          <div
+            id="mot23"
+            style="top: 230px; left: 370px; width: 60px; height: 20px;"
+            class="horz-water2 mid"
+          ></div>
+          <div
+            id="mot24"
+            style="top: 230px; left: 410px; width: 60px; height: 22px;"
+            class="horz-water2 leftfill"
+          ></div>
+          <div
+            id="mot25"
+            style="top: 240px; left: 460px; width: 60px; height: 20px;"
+            class="horz-water2 leftfill"
+          ></div>
+          <div
+            id="mot26"
+            style="top: 290px; left: 500px;"
+            class="horz-water2 leftfill"
+          ></div>
+          <div
+            id="mot27"
+            style="top: 270px; left: 502px;"
+            class="horz-water2 leftfill"
+          ></div>
+          <div
+            id="mot28"
+            style="top: 250px; left: 505px;"
+            class="horz-water2 leftfill"
+          ></div>
+          <div
+            id="mot29"
+            style="top: 230px; left: 502px;"
+            class="horz-water2 leftfill"
+          ></div>
+
+          <div
+            id="mot30"
+            style="
+              top: 235px;
+              left: 600px;
+              width: 60px;
+              height: 20px;
+              background-size: 150%;
+            "
+            class="horz-water2"
+          ></div>
+          <div
+            id="mot31"
+            style="
+              top: 235px;
+              left: 645px;
+              width: 20px;
+              height: 60px;
+              background-size: 150%;
+            "
+            class="horz-water2"
+          ></div>
+          <div
+            id="mot32"
+            style="
+              top: 280px;
+              left: 645px;
+              width: 20px;
+              height: 30px;
+              background-size: 150%;
+            "
+            class="horz-water2"
+          ></div>
+          <div
+            id="mot33"
+            style="
+              top: 310px;
+              left: 645px;
+              width: 20px;
+              height: 30px;
+              background-size: 150%;
+            "
+            class="horz-water2"
+          ></div>
+          <div
+            id="mot34"
+            style="
+              top: 330px;
+              left: 645px;
+              width: 20px;
+              height: 30px;
+              background-size: 150%;
+            "
+            class="horz-water2"
+          ></div>
+
+          <div
+            id="mot35"
+            style="
+              top: 400px;
+              left: 555px;
+              width: 50px;
+              height: 15px;
+              background-size: 80%;
+            "
+            class="horz-water2"
+          ></div>
+          <div
+            id="mot36"
+            style="
+              top: 400px;
+              left: 555px;
+              width: 10px;
+              height: 50px;
+              background-size: 120%;
+            "
+            class="horz-water2"
+          ></div>
+
+          <div id="fillh1" style="top: 223px; left: 242px;" class="fills"></div>
+          <div id="fillh2" style="top: 223px; left: 265px;" class="fills"></div>
+          <div id="fillh3" style="top: 223px; left: 290px;" class="fills"></div>
+          <div id="fillh4" style="top: 223px; left: 313px;" class="fills"></div>
+          <div id="fillh5" style="top: 223px; left: 336px;" class="fills"></div>
+          <div id="fillh6" style="top: 223px; left: 360px;" class="fills"></div>
+          <div id="fillh7" style="top: 223px; left: 383px;" class="fills"></div>
+          <div id="fillh8" style="top: 223px; left: 406px;" class="fills"></div>
+          <div id="fillh9" style="top: 223px; left: 428px;" class="fills"></div>
+          <div
+            id="fillh10"
+            style="top: 223px; left: 448px;"
+            class="fills"
+          ></div>
+          <div
+            id="fillh11"
+            style="top: 223px; left: 471px;"
+            class="fills"
+          ></div>
+
+          <div
+            id="fillfinal"
+            style="top: 425px; left: 768px;"
+            class="fillsfin"
+          ></div>
+
+          <label id="outlab"
+            >turn the outlet valve multiple times to set the flow rate</label
+          >
+          <button id="outlet" class="valve" onclick="clickedValve()"></button>
+          <label id="gatelab">turn the gate valve off</label>
+          <button id="gatebut" class="valve" onclick="clickedgate()"></button>
+          <label id="motlab">push the motor button to start</label>
+          <button id="motbut" class="valve" onclick="clickedMot()"></button>
         </div>
-        <label id="timer"></label>
-        <label id="labFlow"></label>
-        <div id="shower"></div>
-        ,
-        <div id="mot1" class="horz-water"></div>
-        <div id="mot13" class="horz-water"></div>
-        <!--horizontal-->
+      </center>
 
-        <div id="mot2" class="horz-water"></div>
-        <div id="mot3" class="horz-water"></div>
-        <div id="mot4" class="horz-water"></div>
-        <div id="mot5" class="horz-water"></div>
-        <div id="mot6" class="horz-water"></div>
-        <div id="mot7" class="horz-water"></div>
-        <div id="mot8" class="horz-water"></div>
-        <div id="mot9" class="horz-water"></div>
-        <div id="mot10" class="horz-water"></div>
-        <div id="mot11" class="horz-water"></div>
-        <div id="mot12" class="horz-water"></div>
-        <div id="mot14" class="horz-water"></div>
-
-        <div
-          id="mot19"
-          style="top: 240px; left: 200px;"
-          class="horz-water2 leftfill"
-        ></div>
-        <div
-          id="mot20"
-          style="top: 230px; left: 200px;"
-          class="horz-water2 leftfill"
-        ></div>
-        <div
-          id="mot18"
-          style="top: 230px; left: 142px;"
-          class="horz-water2 leftfill"
-        ></div>
-        <div
-          id="mot17"
-          style="top: 250px; left: 140px;"
-          class="horz-water2 leftfill"
-        ></div>
-        <div
-          id="mot16"
-          style="top: 270px; left: 144px;"
-          class="horz-water2 leftfill"
-        ></div>
-        <div
-          id="mot15"
-          style="top: 290px; left: 142px;"
-          class="horz-water2 leftfill"
-        ></div>
-
-        <div
-          id="mot21"
-          style="top: 230px; left: 270px; width: 60px; height: 20px;"
-          class="horz-water2 mid"
-        ></div>
-        <div
-          id="mot22"
-          style="top: 230px; left: 320px; width: 60px; height: 20px;"
-          class="horz-water2 mid"
-        ></div>
-        <div
-          id="mot23"
-          style="top: 230px; left: 370px; width: 60px; height: 20px;"
-          class="horz-water2 mid"
-        ></div>
-        <div
-          id="mot24"
-          style="top: 230px; left: 410px; width: 60px; height: 22px;"
-          class="horz-water2 leftfill"
-        ></div>
-        <div
-          id="mot25"
-          style="top: 240px; left: 460px; width: 60px; height: 20px;"
-          class="horz-water2 leftfill"
-        ></div>
-        <div
-          id="mot26"
-          style="top: 290px; left: 500px;"
-          class="horz-water2 leftfill"
-        ></div>
-        <div
-          id="mot27"
-          style="top: 270px; left: 502px;"
-          class="horz-water2 leftfill"
-        ></div>
-        <div
-          id="mot28"
-          style="top: 250px; left: 505px;"
-          class="horz-water2 leftfill"
-        ></div>
-        <div
-          id="mot29"
-          style="top: 230px; left: 502px;"
-          class="horz-water2 leftfill"
-        ></div>
-
-        <div
-          id="mot30"
-          style="
-            top: 235px;
-            left: 600px;
-            width: 60px;
-            height: 20px;
-            background-size: 150%;
-          "
-          class="horz-water2"
-        ></div>
-        <div
-          id="mot31"
-          style="
-            top: 235px;
-            left: 645px;
-            width: 20px;
-            height: 60px;
-            background-size: 150%;
-          "
-          class="horz-water2"
-        ></div>
-        <div
-          id="mot32"
-          style="
-            top: 280px;
-            left: 645px;
-            width: 20px;
-            height: 30px;
-            background-size: 150%;
-          "
-          class="horz-water2"
-        ></div>
-        <div
-          id="mot33"
-          style="
-            top: 310px;
-            left: 645px;
-            width: 20px;
-            height: 30px;
-            background-size: 150%;
-          "
-          class="horz-water2"
-        ></div>
-        <div
-          id="mot34"
-          style="
-            top: 330px;
-            left: 645px;
-            width: 20px;
-            height: 30px;
-            background-size: 150%;
-          "
-          class="horz-water2"
-        ></div>
-
-        <div
-          id="mot35"
-          style="
-            top: 400px;
-            left: 555px;
-            width: 50px;
-            height: 15px;
-            background-size: 80%;
-          "
-          class="horz-water2"
-        ></div>
-        <div
-          id="mot36"
-          style="
-            top: 400px;
-            left: 555px;
-            width: 10px;
-            height: 50px;
-            background-size: 120%;
-          "
-          class="horz-water2"
-        ></div>
-
-        <div id="fillh1" style="top: 223px; left: 242px;" class="fills"></div>
-        <div id="fillh2" style="top: 223px; left: 265px;" class="fills"></div>
-        <div id="fillh3" style="top: 223px; left: 290px;" class="fills"></div>
-        <div id="fillh4" style="top: 223px; left: 313px;" class="fills"></div>
-        <div id="fillh5" style="top: 223px; left: 336px;" class="fills"></div>
-        <div id="fillh6" style="top: 223px; left: 360px;" class="fills"></div>
-        <div id="fillh7" style="top: 223px; left: 383px;" class="fills"></div>
-        <div id="fillh8" style="top: 223px; left: 406px;" class="fills"></div>
-        <div id="fillh9" style="top: 223px; left: 428px;" class="fills"></div>
-        <div id="fillh10" style="top: 223px; left: 448px;" class="fills"></div>
-        <div id="fillh11" style="top: 223px; left: 471px;" class="fills"></div>
-
-        <div
-          id="fillfinal"
-          style="top: 425px; left: 768px;"
-          class="fillsfin"
-        ></div>
-
-        <label id="outlab"
-          >turn the outlet valve multiple times to set the flow rate</label
-        >
-        <button id="outlet" class="valve" onclick="clickedValve()"></button>
-        <label id="gatelab">turn the gate valve off</label>
-        <button id="gatebut" class="valve" onclick="clickedgate()"></button>
-        <label id="motlab">push the motor button to start</label>
-        <button id="motbut" class="valve" onclick="clickedMot()"></button>
-      </div>
-    </div>
-    <div id="table">
-      <h2>Data Sheet</h2>
-      <table id="tab">
-        <tr>
+      <center>
+        <button class="tab-button" onclick="dataSheet()">Record</button>
+        <!-- <button class="tab-button" onclick="tableSecond()">Record</button> -->
+      </center>
+      <div id="table">
+        <h2>Data Sheet</h2>
+        <table id="tab">
+          <tr>
             <th rowspan="2">SNo.</th>
             <th colspan="3">Discharge Measure</th>
             <th rowspan="2">Discharge Q (cm³/sec)</th>
             <th colspan="11">Piezometer Reading</th>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td id="dm1">Initial (cm)</td>
             <td id="dm2">Final (cm)</td>
             <td id="dm2">Time (sec)</td>
@@ -512,8 +715,8 @@
             <td id="pm9">9</td>
             <td id="pm10">10</td>
             <td id="pm11">11</td>
-        </tr>
-        <tr>
+          </tr>
+          <tr>
             <td>1</td>
             <td id="dt1m1"></td>
             <td id="dt1m2"></td>
@@ -530,12 +733,11 @@
             <td id="p1m9"></td>
             <td id="p1m10"></td>
             <td id="p1m11"></td>
-        </tr>
-      </table>
-      <center><button class="tab-button" onclick="dataSheet()">Record</button>      
-      <button class="tab-button" onclick="tableSecond()">Record</button></center>
-      <table id="tab-1">
-        <tr>
+          </tr>
+        </table>
+
+        <table id="tab-1">
+          <tr>
             <th>SNo.</th>
             <th>Distance from the inlet section(cm)</th>
             <th>Area of c/s conduit a in cm2</th>
@@ -543,9 +745,16 @@
             <th>v2/(2*g) cm</th>
             <th>P/w+Z (cm)</th>
             <th>P/w+Z+v2/(2*g) cm</th>
-        </tr>
-      </table>
+          </tr>
+        </table>
+      </div>
+
+      <div class="graph">
+        <canvas id="myChart" width="590" height="480"></canvas><br />
+        <!--button onclick="clicked()">Plot</button><br /-->
+      </div>
     </div>
+    <script src="js/graph.js"></script>
     <script src="js/valve.js"></script>
   </body>
 </html>
