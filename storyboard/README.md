@@ -92,7 +92,11 @@ link to flow chart Here : https://github.com/Simulators368/Bernoulli-s-apparatus
 
 ### 5. Storyboard :
 Storyboard:
-
+<img src="images/bern-1.png" /> <br>
+<img src="images/bern-2.png" /> <br>
+<img src="images/bern-3.png" /> <br>
+<img src="images/bern-4.png" />          <img src="images/bern-5.png" /> <br>
+<img src="images/bern-8.png" /> <br>
 
 <img src="storyboard/im.gif" />
 link to storyboard Here : https://github.com/Simulators368/Bernoulli-s-apparatus/blob/master/storyboard/storyboard/im.gif
