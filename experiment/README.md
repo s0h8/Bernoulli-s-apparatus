@@ -4,16 +4,15 @@ This folder has
  To verify the Bernoulli’s theorem experimentally i.e. conservation of mechanical energy.
  
 ### Theory
-<h5>Bernoulli’s equation states that:</h5><br>
+<h5>Bernoulli’s equation states that:</h5>
 “In an ideal, incompressible fluid flow when the flow is steady and continuous, the sum of pressure energy, kinetic energy and potential energy is constant along a stream line”.
 
-<h5>Mathematical Representation</h5>,
-	 
-P/w + v<sup>2</sup>/2g + z = Constant
+<h5>Mathematical Representation,</h5>	 
 
+P/w + v<sup>2</sup>/2g + z = Constant <br>
 P<sub>1</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>1</sub> = P<sub>2</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>2</sub> = Constant
 
-<h5>Assumptions</h5>:
+<h5>Assumptions :</h5>
 It may be mentioned that the following assumptions are made in the derivation of Bernoulli’s equation.
 
 1. The liquid is ideal and incompressible.<br>
@@ -41,8 +40,10 @@ The experimental set up consists of the components that are mostly made up of tr
 6. Turn off the gate valve to fill the measuring tank.
 7. Record the final height reached in measuring tank after 30 seconds.
 8. Calculate the fow rate, velocity, Kinetic energy head and total energy head.
-9. Plot the graph of Kinetic energy head vs distance of perpex tube
-10.Plot the graph of Total energy head vs distance of perpex tube
+9. Plot the graph of Kinetic energy head vs distance of perpex tube.
+
+10.Plot the graph of Total energy head vs distance of perpex tube.
+
 11.This procedure is repeated for other values of discharge.  
 
 ### Pre Test:
@@ -52,13 +53,13 @@ Q1. Bernoulli's equation describes a relationship between which variables?<br>
 a) pressure, volume, and speed<br>
 b) pressure, volume, and height<br>
 c) pressure, flow rate, and speed<br>
-d) pressure, speed, and height<br>
+d) <b>pressure, speed, and height</b><br>
 e) height, density, and flow rate<br>
 
 Q2. How is Bernoulli's equation like the law of conservation of energy?<br>
 
 a) It explains how the overall relationship is constantly changing<br>
-b) It explains how the overall relationship is constant<br>
+b) <b>It explains how the overall relationship is constant </b><br>
 c) It explains how the amount of fluid on Earth never changes<br>
 d) It describes a relationship between recycling and sustainable energy<br>
 e) It describes a relationship between fluid volume and kinetic energy<br>
@@ -69,7 +70,7 @@ a) P1 + ½ ρv1^2 + ρgh1 = P2 + ½ ρv2^2 + ρgh2<br>
 b) P2 + ½ ρv2^2 + ρgh2 = P1 + ½ ρv1^2 + ρgh1<br>
 c) P2 = P1 + ½ ρv1^2 - ½ ρv2^2 + ρgh1 - ρgh2<br>
 d) P2 = P1 + ½ρ(v1^2 - v2^2) + ρg(h1 - h2)<br>
-e) All are correct
+e)<b> All are correct</b>
 
 Q4. The following are the assumption made in the derivation of Bernoulli’s equation:<br>
 
@@ -78,9 +79,9 @@ b) The flow is steady, only.<br>
 c) There is no energy loss while flowing, only.<br>
 d) The flow is incompressible, only.<br>
 e) The flow is Irrotational, only.<br>
-f) All of the above<br>
+f) <b>All of the above </b><br>
 
-Q5. Can this experiment work when the conduit is half filled? (Y/N)<br>
+Q5. Can this experiment work when the conduit is half filled? (Y/<b>N</b>)<br>
 
 ### Post Test 
 (1 point each)<br>
@@ -89,23 +90,23 @@ Q1. In the present experiment what are the value of Z if measured from conduit.<
 
 a) Z=2<br>
 b) Z=1.5<br>
-c) Z=0<br>
+c)<b> Z=0</b><br>
 d) Z=1<br>
 
-Q2. If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid? (Y/N) <br>
+Q2. If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid? (<b>Y</b>/N) <br>
 
-Q3. If this experiment is conducted in real lab then the result will be same. (Y/N) <br>
+Q3. If this experiment is conducted in real lab then the result will be same. (Y/<b>N</b>) <br>
 
 Q4. In Q4 if the result will vary from virtual lab to real lab as <br>
 
 a) Viscosity will differ in real fluid<br>
 b) Ideal fluids doesn’t exist <br>
-c) There will be frictional loss through walls of the conduit <br>
+c) <b>There will be frictional loss through walls of the conduit </b><br>
 d) Because of environmental conditions <br>
 
 Q5. What pattern does the values of kinetic energy follows (through the graphs) <br>
 
-a) It first increases then decreases at the length of the conduit. <br>
+a) <b>It first increases then decreases at the length of the conduit. </b><br>
 b) It remains constant throughout the conduit. <br>
 c) It first decreases then increases at the length of the conduit. <br>
 d) It is zero throughout the conduit. <br>
