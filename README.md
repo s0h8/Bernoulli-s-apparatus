@@ -27,7 +27,7 @@ Chemical Engineering Fluid Mechanics Lab (KCH-351)
  Dr. A.P.J. Abdul Kalam Technical University (AKTU) <br>
 
 
-<b>Name of Developer | <b> Neha Sharma
+<b>Name of Developer | <b> Dr. Neha Sharma
 :--|:--|
 <b> Institute | <b> Meerut Institute of Engineering and Technology name
 <b> Email id|     <b> neha.sharma.ch@miet.ac.in
@@ -44,7 +44,7 @@ Chemical Engineering Fluid Mechanics Lab (KCH-351)
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Neha Sharma | Faculty | Chemical Engineering | Meerut Institute of Engineering and Technology, Meerut | neha.sharma.ch@miet.ac.in
+1 | Dr. Neha Sharma | Faculty | Chemical Engineering | Meerut Institute of Engineering and Technology, Meerut | neha.sharma.ch@miet.ac.in
 2 | Hritik Singhal | Student | Chemical Engineering | Meerut Institute of Engineering and Technology, Meerut |hritik.singhal.ch.2017@miet.ac.in
 3 | Manan Gupta| Student | Computer Science and Engineering | Meerut Institute of Engineering and Technology, Meerut|manan.gupta.cs.2018@miet.ac.in
 4 | Hardik Sharma| Student | Computer Science and Engineering  | Meerut Institute of Engineering and Technology, Meerut |hardik.sharma.cs.2018@miet.ac.in
