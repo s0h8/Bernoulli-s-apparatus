@@ -9,7 +9,7 @@ Bernoulli’s equation states that:<br>
 
 ### Mathematical Representation,
 	 
-P/w + (v<sup>2</sup>)/2g + z = Constant
+P/w + v<sup>2</sup>/2g + z = Constant
 
 P<sub>1</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>1</sub> = P<sub>2</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>2</sub> = Constant
 
