@@ -7,7 +7,7 @@
 <b> Lab | <b> Chemical Engineering Fluid Mechanics Lab
 <b> Experiment|     <b>  Study and verification of the flow pattern in bernoulli's apparatus.
 
-<h5> About the Lab (Objective) : to provide students hands on practice on physical processes and theoretical concepts made practical for their better understanding. </h5>
+<h5> About the Lab (Objective) : To provide students hands on practice on physical processes and theoretical concepts made practical for their better understanding. </h5>
 
 The Fluid Mechanics laboratory is designed to examine the properties of fluids and to conduct experiments involving both incompressible and compressible flow.Facilities for investigating the fundamentals of fluid statics, kinematics, kinetics of fluid flow, open channel flow and  centrifugal pumps should be available in the labs.
 
