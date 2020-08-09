@@ -7,9 +7,9 @@ This folder has
 
 ### Mathematical Representation,
 	 
-### P/w + v2/2g + z = Constant
+### P/w + v<sup>2/2g + z = Constant
 
-### P1/w + v12/2g + z = P2/w + v22/2g + z2 = Constant
+### P<sub></sub>1/w + v<sub></sub>1<sup>2/2g + z = P<sub></sub>2/w + v<sub></sub>2<sup>2/2g + z2 = Constant
 
 ### Assumptions: It may be mentioned that the following assumptions are made in the derivation of Bernoulli’s equation.
 
