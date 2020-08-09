@@ -24,12 +24,13 @@ It may be mentioned that the following assumptions are made in the derivation of
 <h5>Rate of Flow of Actual Discharge (Q) </h5> <br>
  
 The water flowing through the section of a pipe or a channel under the steady state conditions is collected in a collecting tank for a known time t. The rise of water level in the collecting tank is noted down. The actual discharge is<br>
-(Q)=(Area of collecting tank X Rise of water level in the collecting tank)/(time t)
-	 
+<img src="images/bern-form2.bmp" />
 
 ### Experimental set up:
 
 The experimental set up consists of the components that are mostly made up of transparent material like acrylic or glass. The set-up consists of a cylindrical inlet tank and an outlet tank to minimize the fluctuations in the flow mounted vertically on a stand. The inlet tank is connected with a Perspex duct of cross-sectional area of 16.0cm2. This Perspex duct ends connecting to the outlet tank with a cross-sectional area of 16.0cm2. The Perspex duct is also connected with eleven piezometers at its various cross sectional areas of 14.4cm2, 13.2 cm2, 12.0cm2, 10.8cm2, 9.2cm2, 8.0cm2, 9.2cm2, 10.8cm2, 12.0cm2, 13.2 cm2 and 14.4cm2 respectively, which are 7.5 cm apart from each other and also from inlet and outlet. At the outlet tank a valve is fitted to regulate the flow rate of water inside the conduit. This valve is followed by a pipe which carries outlet water to the measuring tank of cross sectional area of 1600cm2. A gate valve is again fitted at the outlet of the measuring tank which opens in reservoir. And measuring tank is also fitted with a tube which measures the height of water in measuring tank after closing the gate valve, at a prescribed time of 30 secs. 
+
+<img src="images/Bern-exp.png" />
 
 ### Procedure:
 1. Switch on the motor
