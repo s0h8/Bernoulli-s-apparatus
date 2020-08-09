@@ -91,5 +91,11 @@ link to flow chart Here : https://github.com/Simulators368/Bernoulli-s-apparatus
  (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
 
 ### 5. Storyboard :
-Storyboard: <img src="storyboard/im.gif" />
+Storyboard:
+<img src="images/bern-1.png" />        <img src="images/bern-2.png" /> <br>  <br> 
+<img src="images/bern-3.png" />          <img src="images/bern-4.png" />    <br><br>
+<img src="images/bern-5.png" />            <img src="images/bern-6.png" />  <br><br>
+<img src="images/bern-7.png" />             <img src="images/bern-8.png" /> <br><br>
+
+<img src="storyboard/im.gif" />
 link to storyboard Here : https://github.com/Simulators368/Bernoulli-s-apparatus/blob/master/storyboard/storyboard/im.gif
