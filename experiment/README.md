@@ -4,16 +4,16 @@ This folder has
  To verify the Bernoulli’s theorem experimentally i.e. conservation of mechanical energy.
  
 ### Theory
-Bernoulli’s equation states that:<br>
+<h5>Bernoulli’s equation states that:</h5><br>
 “In an ideal, incompressible fluid flow when the flow is steady and continuous, the sum of pressure energy, kinetic energy and potential energy is constant along a stream line”.
 
-Mathematical Representation,
+<h5>Mathematical Representation</h5>,
 	 
 P/w + v<sup>2</sup>/2g + z = Constant
 
 P<sub>1</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>1</sub> = P<sub>2</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>2</sub> = Constant
 
-### Assumptions:
+<h5>Assumptions</h5>:
 It may be mentioned that the following assumptions are made in the derivation of Bernoulli’s equation.
 
 1. The liquid is ideal and incompressible.<br>
@@ -22,7 +22,7 @@ It may be mentioned that the following assumptions are made in the derivation of
 4. The velocity is uniform over the section and is equal to the mean velocity.<br>
 5. The only forces acting on the fluid are the gravity forces and the pressure forces.<br>
 
-### Rate of Flow of Actual Discharge (Q) <br>
+<h5>Rate of Flow of Actual Discharge (Q) </h5> <br>
  
 The water flowing through the section of a pipe or a channel under the steady state conditions is collected in a collecting tank for a known time t. The rise of water level in the collecting tank is noted down. The actual discharge is<br>
 (Q)=(Area of collecting tank X Rise of water level in the collecting tank)/(time t)
