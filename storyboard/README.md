@@ -54,7 +54,7 @@ d)	It is zero throughout the conduit.<br>
 
 
 ##### 2.6 Conclusion:
-There were two assessments i.e pre-assessment and post-assessment having total 10 questions of different difficulty level. Right answered questions will get 1 mark while wrong answered question will get 0 mark. Hence after answering particular set of question student will get score on the basis of answers given. 
+
 User will take approximate 7-10 minutes for understanding the procedure. Then for generating data by the help of simulator will take 2-3 minutes. After onwards for calculating result and plotting graph will take 12 minutes. Hence total time taken for doing experiment will be approximately 25 minutes.
 
 ##### 2.7 Equations/formulas: 
