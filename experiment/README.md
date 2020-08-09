@@ -11,7 +11,7 @@ Bernoulli’s equation states that:<br>
 	 
 P/w + (v<sup>2</sup>)/2g + z = Constant
 
-P(<sub></sub>1)/w + v(<sub></sub>1)(<sup>2)/2g + z(<sub></sub>1) = P(<sub></sub>2)/w + v(<sub></sub>2)(<sup>2)/2g + z(<sub></sub>2) = Constant
+P<sub>1</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>1</sub> = P<sub>2</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>2</sub> = Constant
 
 ### Assumptions:
 It may be mentioned that the following assumptions are made in the derivation of Bernoulli’s equation.
