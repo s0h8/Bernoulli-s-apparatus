@@ -415,15 +415,6 @@ function check() {
       r++;
       createRow();
       tableSecond();
-
-      clicked(
-        [7.5, 15, 22.5, 30, 37.5, 45, 52.5, 60, 67.5, 75, 82.5],
-        d,
-        [7.5, 15, 22.5, 30, 37.5, 45, 52.5, 60, 67.5, 75, 82.5],
-        d,
-        [7.5, 15, 22.5, 30, 37.5, 45, 52.5, 60, 67.5, 75, 82.5],
-        d
-      );
     } else {
       ele.style.background = "red";
       ele.style.value = "wrong answer";
@@ -432,11 +423,18 @@ function check() {
 }
 
 function checktab() {
-  for (i = 0; i < 11; i++) {
-    var doc = document.getElementById("c" + c + "r" + i);
-    console.log(c, i, doc);
-    if (doc.value != thead[i]) {
-      doc.style.backgroundColor = "red";
-    }
+  var ipans = document.getElementById("ans");
+  var ansv = ipans.value;
+  if (ansv >= 28.84 && ansv < 28.85) {
+    clicked(
+      [7.5, 15, 22.5, 30, 37.5, 45, 52.5, 60, 67.5, 75, 82.5],
+      d,
+      [7.5, 15, 22.5, 30, 37.5, 45, 52.5, 60, 67.5, 75, 82.5],
+      d,
+      [7.5, 15, 22.5, 30, 37.5, 45, 52.5, 60, 67.5, 75, 82.5],
+      d
+    );
+  } else {
+    ipans.style.borderColor = "red";
   }
 }

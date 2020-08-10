@@ -281,6 +281,14 @@
         transition: all 0.3s ease;
         cursor: pointer;
       }
+     #quest{
+       /*visibility: hidden;*/
+       position: absolute;
+      background-color: khaki!important;
+      
+      border: 2px black solid;
+      z-index:1;
+     } 
     </style>
   </head>
 
@@ -697,6 +705,7 @@
         <!-- <button class="tab-button" onclick="tableSecond()">Record</button> -->
       </center>
       <div id="table">
+
         <h2>Data Sheet</h2>
 
         <h4>Area of Conduit: 1600 cm<sup>2</sup></h4>
@@ -724,6 +733,7 @@
             <td id="pm10">10</td>
             <td id="pm11">11</td>
           </tr>
+          
           <tr>
             <td>1</td>
             <td id="dt1m1"></td>
@@ -767,9 +777,12 @@
         <br />
         
       </div>
-      <center><!--button onclick="checktab()">Check calculation</button--></center>
+      
+      
 
       <div class="graph">
+                <div id="quest"><label>What is the total head?      <input id="ans"></input>
+        <br><br><button onclick="checktab()">Check and plot the graph</button></label></div>
         <center>
           <canvas id="myChart" width="590" height="480"></canvas><br />
         </center>
