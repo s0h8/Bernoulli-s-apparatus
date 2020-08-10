@@ -2,7 +2,7 @@
 
 
 
-Experiment 1: Study and verification of the flow pattern in bernoulli's apparatus.
+Experiment 1: Study and verification of the Bernoulli's Theorem.
 
 ### 1. Story Outline:
 
