@@ -58,7 +58,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 Step by step instructions are provided at each level in the simulator to make it more user friendly.
 
 <h5>SCOPE:</h5>
-Various changes in flow rate are possible so that user may completely learn the objective.
+Various runs of the same experiment are possible at changing values flow rates, so that user may completely learn the objectives.
 
 
  <br>
