@@ -5,7 +5,7 @@
 <b>Discipline | <b>Chemical Engineering
 :--|:--|
 <b> Lab | <b> Chemical Engineering Fluid Mechanics Lab
-<b> Experiment|     <b>  Study and verification of the flow pattern in bernoulli's apparatus.
+<b> Experiment|     <b>  Study and verification of the Bernoulli's Theorem.
 
 <h5> About the Lab (Objective) : To provide students hands on practice on physical processes and theoretical concepts made practical for their better understanding. </h5>
 
