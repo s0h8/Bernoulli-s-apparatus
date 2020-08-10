@@ -90,6 +90,7 @@ link to flow chart Here : https://github.com/Simulators368/Bernoulli-s-apparatus
 
 ### 5. Storyboard :
 Storyboard:
+Step1: First we create Reservoir.<br>
 <img src="images/bern-1.png" /> <br><br><br><br>
 <img src="images/bern-2.png" /> <br><br> <br><br>
 <img src="images/bern-3.png" /> <br><br><br><br>
