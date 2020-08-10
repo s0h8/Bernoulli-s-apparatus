@@ -89,12 +89,21 @@ link to flow chart Here : https://github.com/Simulators368/Bernoulli-s-apparatus
  
 
 ### 5. Storyboard :
-Storyboard:
-Step1: First we create Reservoir.<br>
+
+Step1: First we created Reservoir for continuous water supply.<br>
 <img src="images/bern-1.png" /> <br><br><br><br>
+Step2: Then we added a pump that moves water from reservoir to the conduit.
+
+
 <img src="images/bern-2.png" /> <br><br> <br><br>
+Step3: Then by the help of piping pump was connected to the conduit.<br>
+
 <img src="images/bern-3.png" /> <br><br><br><br>
-<img src="images/bern-4.png" />          <img src="images/bern-5.png" /> <br><br><br><br>
+Step4: After That Duct and Piezometers were connected between the two conduits.<br>
+
+<img src="images/bern-4.png" />          <img sc="images/bern-5.png" /> <br><br><br><br>
+Step5: Now For measuring flow rate a collecting tank was added with gate valve attached and a stopwatch was connected to record height and whole set up looks like this.br>
+
 <img src="images/bern-8.png" /> <br><br><br><br>
 
 <img src="storyboard/im.gif" />
