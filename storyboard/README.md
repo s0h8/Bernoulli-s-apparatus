@@ -25,7 +25,7 @@ At the outlet of the conduit2 there is  outlet valve for regulating the flow rat
 3) Student will be able to recall the velocity head and pressure head concepts.
 4) To understand the change in the pressure head when flow rate is changed through calculation.
 5) To understand the calculation of flow rate by measuring height in collecting tank.
-6) To plot a graph taking piezometer distances on x-axis and taking total head, Velocity head, Pressure head on Y-axis.
+6) To plot a graph taking piezometer distances on x-axis and taking Pressure head on Y-axis.
 7) Student will be able to analyse the data obtained from various sections of the pipe at different flow rates through graph.
 
 #### 2.3 Set the Pathway Activities:
@@ -41,7 +41,7 @@ At the outlet of the conduit2 there is  outlet valve for regulating the flow rat
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 1) If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid? (<b>Y</b>,N) (LO1 & LO2)<br>
-2) What pattern does the values of kinetic energy follows (through the graphs) (LO1; LO2 and LO 3)<br>
+2) What pattern does the values of kinetic energy follows (LO1; LO2 and LO 3)<br>
 a)<b>It first increases then decreases at the length of the conduit </b>.<br>
 b)	It remains constant throughout the conduit.<br>
 c)	It first decreases then increases at the length of the conduit.<br>
