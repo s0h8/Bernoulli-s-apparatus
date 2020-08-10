@@ -10,7 +10,7 @@ This folder has
 <h5>Mathematical Representation,</h5>	 
 
 P/w + v<sup>2</sup>/2g + z = Constant <br>
-P<sub>1</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>1</sub> = P<sub>2</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>2</sub> = Constant
+P<sub>1</sub>/w + v<sub>1</sub><sup>2</sup>/2g + z<sub>1</sub> = P<sub>2</sub>/w + v<sub>2</sub><sup>2</sup>/2g + z<sub>2</sub> = Constant
 
 <h5>Assumptions :</h5>
 It may be mentioned that the following assumptions are made in the derivation of Bernoulli’s equation.
