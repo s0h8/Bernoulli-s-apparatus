@@ -36,7 +36,7 @@ At the outlet of the conduit2 there is  outlet valve for regulating the flow rat
 4) Then by closing the gate valve student will be able to collect water in the collecting tank for measuring height by which student will understand the calculation of flow rate and will calculate the same.
 5) Simulator will provide the respective heights of piezometer and other data needed for doing calculation.
 6) User will do the calculation for pressure head, velocity head and total head. After doing all the calculation student will be able to recall Bernoulli's theorem. 
-7) User will make a plot having piezometers distance on x-axis and taking total head, Velocity head, Pressure head on Y-axis. 
+7) User will make a plot having piezometers distance on x-axis and taking Pressure head on Y-axis. 
 8) By the help of graph student will be able to analyse the data obtained for different flow rates.
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
