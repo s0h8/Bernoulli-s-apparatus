@@ -82,7 +82,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 4.| LO2. | open the valve so that fluid flows and compare from that |  5.	Can this experiment work when the conduit is half filled? <br> Yes <br><b>No</b> <br> 
 5.| LO2 | observe the experimental set up and then relate from that |  	In the present experiment what are the value of Z. <br> A. Z=2 <br>B. Z=1.5 <br><b> C. Z=0 </b><br> D.	Z=1  <br>
 6.| LO1 and LO2 | Find total head and from that compare the same set up   | 		If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid?  <br><b> Yes</b> <br> No <br>
-7.| LO1,LO2 and LO3 | Sketch a graph for all energy heads |  What pattern does the values of kinetic energy follows (through the graphs) <br> <b>A.	It first increases then decreases at the length of the conduit</b><br> B.	It remains constant throughout the conduit<br> C. It first decreases then increases at the length of the conduit <br> D. It is zero throughout the conduit.  <br>
+7.| LO1,LO2 and LO3 | Analyse the values of kinetic energy head |  What pattern does the values of kinetic energy follows (through the graphs) <br> <b>A.	It first increases then decreases at the length of the conduit</b><br> B.	It remains constant throughout the conduit<br> C. It first decreases then increases at the length of the conduit <br> D. It is zero throughout the conduit.  <br>
  <br>
 
 <br/>
