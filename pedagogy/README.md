@@ -10,7 +10,7 @@
 Discipline | Chemical Engineering 
 :--|:--|
  Lab |  Chemical Engineering Fluid Mechanics Lab
- Experiment|    Study and verification of the flow pattern in bernoulli's apparatus.
+ Experiment|    Study and verification of the Bernoulli's Theorem
 </b>
 
 <h4> [1. Focus Area](#LO)
