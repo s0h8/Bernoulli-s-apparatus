@@ -7,6 +7,7 @@ var overflow;
 var d = [];
 var temp = 0;
 var finalht = 0;
+var thead = [];
 
 function clickedValve() {
   if (ov == 0) {
@@ -352,13 +353,22 @@ function tableSecond() {
         v = q / areaArr[i];
         y.innerHTML = v.toFixed(4);
       } else if (j == 5) {
-        vg = (v * v) / (2 * 981);
-        y.innerHTML = vg.toFixed(4);
+        var ip1 = document.createElement("input");
+        y.appendChild(ip1);
+
+        //vg = (v * v) / (2 * 981);
+        //y.innerHTML = vg.toFixed(4);
       } else if (j == 6) {
-        pp = d[i];
-        y.innerHTML = pp.toFixed(4);
+        var ip2 = document.createElement("input");
+        y.appendChild(ip2);
+        //pp = d[i];
+        //y.innerHTML = pp.toFixed(4);
       } else {
-        y.innerHTML = (pp + vg).toFixed(4);
+        //y.innerHTML = (pp + vg).toFixed(4);
+        thead[i] = pp + vg;
+        var last = document.createElement("input");
+        last.setAttribute("id", "c" + c + "r" + i);
+        y.appendChild(last);
       }
     }
   }
@@ -417,6 +427,16 @@ function check() {
     } else {
       ele.style.background = "red";
       ele.style.value = "wrong answer";
+    }
+  }
+}
+
+function checktab() {
+  for (i = 0; i < 11; i++) {
+    var doc = document.getElementById("c" + c + "r" + i);
+    console.log(c, i, doc);
+    if (doc.value != thead[i]) {
+      doc.style.backgroundColor = "red";
     }
   }
 }
