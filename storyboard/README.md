@@ -106,5 +106,6 @@ Step5: Now For measuring flow rate a collecting tank was added with gate valve a
 
 <img src="images/bern-8.png" /> <br><br><br><br>
 
+Final view
 <img src="storyboard/im.gif" />
 link to storyboard Here : https://github.com/Simulators368/Bernoulli-s-apparatus/blob/master/storyboard/storyboard/im.gif
