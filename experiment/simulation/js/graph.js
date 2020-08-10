@@ -149,7 +149,6 @@ function lineAnimate3() {
 }
 
 function clicked(xAxis, yAxis, xAxis2, yAxis2, xAxis3, yAxis3) {
-  //console.log(xAxis, yAxis, xAxis2, yAxis2, xAxis3, yAxis3);
   for (var i = 0; i < xAxis.length; i++) {
     xAxis01[i] = 5 * xAxis[i] + 40;
   }
@@ -169,5 +168,5 @@ function clicked(xAxis, yAxis, xAxis2, yAxis2, xAxis3, yAxis3) {
     yAxis03[i] = 40 * ((30 - yAxis3[i]) / 3);
   }
 
-  // console.log(xAxis01, yAxis01, xAxis02, yAxis02, xAxis03, yAxis03);
+  chart(xAxis01, yAxis01, xAxis02, yAxis02, xAxis03, yAxis03);
 }

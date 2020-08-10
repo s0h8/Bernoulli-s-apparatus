@@ -180,15 +180,6 @@ function calH() {
   var h10 = h2;
   var h11 = h1;
 
-  const xAxis = d;
-  const yAxis = d;
-  const xAxis2 = d;
-  const yAxis2 = d;
-  const xAxis3 = d;
-  const yAxis3 = d;
-  console.log(h1, h2, xAxis2, yAxis2, xAxis3, yAxis3);
-  clicked(xAxis, yAxis, xAxis2, yAxis2, xAxis3, yAxis3);
-
   if (flow != 0) {
     document.getElementById("h1").innerText =
       "h1:" + h1.toString().substring(0, 6);
@@ -414,8 +405,18 @@ function check() {
       r++;
       createRow();
       tableSecond();
+
+      clicked(
+        [7.5, 15, 22.5, 30, 37.5, 45, 52.5, 60, 67.5, 75, 82.5],
+        d,
+        [7.5, 15, 22.5, 30, 37.5, 45, 52.5, 60, 67.5, 75, 82.5],
+        d,
+        [7.5, 15, 22.5, 30, 37.5, 45, 52.5, 60, 67.5, 75, 82.5],
+        d
+      );
     } else {
       ele.style.background = "red";
+      ele.style.value = "wrong answer";
     }
   }
 }
