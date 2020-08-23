@@ -150,19 +150,19 @@ function lineAnimate3() {
 
 function clicked(xAxis, yAxis, xAxis2, yAxis2, xAxis3, yAxis3) {
   for (var i = 0; i < xAxis.length; i++) {
-    xAxis01[i] = 6 * xAxis[i] + 40;
+    xAxis01[i] = 5 * xAxis[i] + 40;
   }
   for (var i = 0; i < yAxis.length; i++) {
     yAxis01[i] = 40 * ((30 - yAxis[i]) / 3);
   }
   for (var i = 0; i < xAxis.length; i++) {
-    xAxis02[i] = 6 * xAxis2[i] + 40;
+    xAxis02[i] = 5 * xAxis2[i] + 40;
   }
   for (var i = 0; i < yAxis2.length; i++) {
     yAxis02[i] = 40 * ((30 - yAxis2[i]) / 3);
   }
   for (var i = 0; i < xAxis3.length; i++) {
-    xAxis03[i] = 6 * xAxis3[i] + 40;
+    xAxis03[i] = 5 * xAxis3[i] + 40;
   }
   for (var i = 0; i < yAxis3.length; i++) {
     yAxis03[i] = 40 * ((30 - yAxis3[i]) / 3);

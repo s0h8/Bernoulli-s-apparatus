@@ -40,18 +40,21 @@
         opacity: 0;
         top: 180;
         left: 570;
-        background-color: darkgrey;
+        background-color: rgb(230, 230, 62);
+        border: 1px black solid;
       }
       #motlab {
         top: 480;
         left: 150;
-        background-color: darkgrey;
+        background-color: rgb(230, 230, 62);
+        border: 1px black solid;
       }
       #gatelab {
         opacity: 0;
         top: 370;
         left: 550;
-        background-color: darkgrey;
+        background-color: rgb(230, 230, 62);
+        border: 1px black solid;
       }
       #gatebut {
         top: 395px;
@@ -62,7 +65,9 @@
       }
       #labFlow {
         top: 290px;
-        left: 710px;
+        left: 680px;
+        background-color: rgb(230, 230, 62);
+        border: 1px black solid;
       }
       #timer {
         position: absolute;
@@ -74,16 +79,16 @@
       }
       #piezoDiv {
         position: absolute;
-        top: 40px;
+        top: 30px;
         left: 250px;
-        font-size: 10px;
+        font-size: 12px;
         font-weight: bold;
       }
       #piezoDiv2 {
         position: absolute;
-        top: 40px;
+        top: 30px;
         left: 430px;
-        font-size: 10px;
+        font-size: 12px;
         font-weight: bold;
       }
       #shower {
@@ -294,8 +299,9 @@
 
   <body>
     <center>
-      <h1 style="color: red;">
+      <h1 style="color: red;"><u>
         Experiment: Verification of Bernoulli's Theorem
+        </u>
       </h1>
     </center>
     <div id="container">
@@ -689,9 +695,8 @@
             class="fillsfin"
           ></div>
 
-          <label id="outlab"
-            >turn the outlet valve multiple times to set the flow rate</label
-          >
+          <label id="outlab">
+            turn the outlet valve to set the flow rate</label>
           <button id="outlet" class="valve" onclick="clickedValve()"></button>
           <label id="gatelab">turn the gate valve off</label>
           <button id="gatebut" class="valve" onclick="clickedgate()"></button>
@@ -708,7 +713,7 @@
 
         <h2>Data Sheet</h2>
 
-        <h4>Area of Conduit: 1600 cm<sup>2</sup></h4>
+        <h3>Area of Collecting tank: 1600 cm<sup>2</sup></h3>
         <br />
         <table id="tab">
           <tr>
@@ -779,10 +784,13 @@
       </div>
       
       
-
-      <div class="graph">
-                <div id="quest"><label>What is the total head?      <input id="ans"></input>
+      <div><center><div id="quest"><label>What is the total head?      <input id="ans"></input>
         <br><br><button onclick="checktab()">Check and plot the graph</button></label></div>
+      </center>
+      </div>
+      <br><br><br><br><br><br>
+      <div class="graph">
+                
         <center>
           <canvas id="myChart" width="590" height="480"></canvas><br />
         </center>

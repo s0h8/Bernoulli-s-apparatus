@@ -99,7 +99,7 @@ function clickedgate() {
     if (ov == 1) {
       var timeo = setTimeout(function () {
         document.getElementById("labFlow").innerText =
-          "final h" + 0.01875 * flow;
+          "final height=" + (0.01875 * flow + "").substring(0, 6);
         finalht = 0.01875 * flow;
       }, 30000);
       i = 30;
@@ -409,7 +409,7 @@ function check() {
     ele.value = "Please Fill discharge rate";
   } else {
     var k = (1600 * finalht) / 30;
-    if (discharge_value == k) {
+    if (discharge_value <= k + 1 && discharge_value >= k - 1) {
       document.getElementById("ds" + r).innerHTML = k;
 
       r++;
@@ -434,6 +434,7 @@ function checktab() {
       [7.5, 15, 22.5, 30, 37.5, 45, 52.5, 60, 67.5, 75, 82.5],
       d
     );
+    ipans.style.borderColor = "black";
   } else {
     ipans.style.borderColor = "red";
   }
