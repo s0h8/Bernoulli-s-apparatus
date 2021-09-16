@@ -42,17 +42,16 @@ The experimental set up consists of the components that are mostly made up of tr
 7. Record the final height reached in measuring tank after 30 seconds.
 8. Calculate the fow rate, velocity, Kinetic energy head and total energy head.
 9. Plot the graph of Pressure Energy head vs distance of perpex tube.
-10. Plot the graph of total energy head vs distance of perpex tube.
-11. This procedure is repeated for other values of discharge. 
+10. This procedure is repeated for other values of discharge. 
 
 ### Pre Test:
 (1 point each)<br>
 Q1. Bernoulli's equation describes a relationship between which variables?<br>
 
-a) pressure, volume, and speed<br>
+a) pressure, volume, and velocity<br>
 b) pressure, volume, and height<br>
-c) pressure, flow rate, and speed<br>
-d) <b>pressure, speed, and height</b><br>
+c) pressure, flow rate, and velocity<br>
+d) <b>pressure, velocity, and height</b><br>
 e) height, density, and flow rate<br>
 
 Q2. How is Bernoulli's equation like the law of conservation of energy?<br>
@@ -99,7 +98,7 @@ Q3. If this experiment is conducted in real lab then the result will be same. (Y
 Q4. In Q4 if the result will vary from virtual lab to real lab as <br>
 
 a) Viscosity will differ in real fluid<br>
-b) Ideal fluids doesn’t exist <br>
+b) Due to change in size of experiment <br>
 c) <b>There will be frictional loss through walls of the conduit </b><br>
 d) Because of environmental conditions <br>
 
