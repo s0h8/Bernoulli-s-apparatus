@@ -98,7 +98,7 @@ Q3. If this experiment is conducted in real lab then the result will be same. (Y
 Q4. In Q4 if the result will vary from virtual lab to real lab as <br>
 
 a) Viscosity will differ in real fluid<br>
-b) Due to change in size of experiment <br>
+b) Due to change in size of experimental set-up <br>
 c) <b>There will be frictional loss through walls of the conduit </b><br>
 d) Because of environmental conditions <br>
 
