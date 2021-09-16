@@ -92,10 +92,10 @@
     {
       question: "Bernoulli's equation describes a relationship between which variables?",  ///// Write the question inside double quotes
       answers: {
-        a: "pressure, volume, and speed",                  ///// Write the option 1 inside double quotes
+        a: "pressure, volume, and velocity",                  ///// Write the option 1 inside double quotes
         b: "pressure, volume, and height",                  ///// Write the option 2 inside double quotes
-        c: "pressure, flow rate, and speed",                  ///// Write the option 3 inside double quotes
-        d: "pressure, speed, and height",
+        c: "pressure, flow rate, and velocity",                  ///// Write the option 3 inside double quotes
+        d: "pressure, velocity, and height",
         e: "height, density, and flow rate"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "d"                ///// Write the correct option inside double quotes
