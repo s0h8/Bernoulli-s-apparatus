@@ -8,6 +8,5 @@
 6. Turn off the gate valve to fill the measuring tank.
 7. Record the final height reached in measuring tank after 30 seconds.
 8. Calculate the fow rate, velocity, Kinetic energy head and total energy head.
-9. Plot the graph of Kinetic energy head vs distance of perpex tube.
-10. Plot the graph of kinetic energy head vs distance of perpex tube.
-11. This procedure is repeated for other values of discharge.
+9. Plot the graph of Pressure energy head vs distance of perpex tube.
+10. This procedure is repeated for other values of discharge.
