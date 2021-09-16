@@ -2,10 +2,10 @@
 #### Please attempt the following questions
 
 1.	Bernoulli's equation describes a relationship between which variables? (LO1)<br>
-a)	pressure, volume, and speed<br>
+a)	pressure, volume, and velocity<br>
 b)	pressure, volume, and height<br>
-c)	pressure, flow rate, and speed<br>
-<b>d)	pressure, speed, and height</b><br>
+c)	pressure, flow rate, and velocity<br>
+<b>d)	pressure, velocity, and height</b><br>
 e)	height, density, and flow rate<br>
 
 2.	How is Bernoulli's equation like the law of conservation of energy? (LO1)<br>
