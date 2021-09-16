@@ -95,7 +95,7 @@ Q2. If the conduit is placed in inclined position then will the Bernoulli’s Eq
 
 Q3. If this experiment is conducted in real lab then the result will be same. (Y/<b>N</b>) <br>
 
-Q4. In Q4 if the result will vary from virtual lab to real lab as <br>
+Q4. In Q3 if the result will vary from virtual lab to real lab as <br>
 
 a) Viscosity will differ in real fluid<br>
 b) Due to change in size of experimental set-up <br>
