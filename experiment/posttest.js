@@ -104,7 +104,7 @@
       question: "If the conduit is placed in inclined position then will the Bernoulli’s Equation will be valid? ",  ///// Write the question inside double quotes
       answers: {
         a: "Yes",                  ///// Write the option 3 inside double quotes
-        d: "No"                   ///// Write the option 4 inside double quotes
+        b: "No"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },    
@@ -113,7 +113,7 @@
       question: "If this experiment is conducted in real lab then the result will be same. ",  ///// Write the question inside double quotes
       answers: {
         a: "Yes",                  ///// Write the option 3 inside double quotes
-        d: "No"                   ///// Write the option 4 inside double quotes
+        b: "No"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     }, ///// To add more questions, copy the section below 
@@ -123,11 +123,11 @@
       question: "In Q3 if the result will vary from virtual lab to real lab as ",  ///// Write the question inside double quotes
       answers: {
         a:  "Viscosity will differ in real fluid",
-        b: "Ideal fluids doesn’t exist",
+        b: "Due to change in size of Experimental set-up",
         c: "There will be frictional loss through walls of the conduit",
         d: "Because of environmental conditions "                ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },   
     
     {
